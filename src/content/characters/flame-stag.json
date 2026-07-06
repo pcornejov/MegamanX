@@ -1,0 +1,17 @@
+{
+  "id": "flame-stag",
+  "name": "Flame Stag",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x2" },
+  "games": [{ "collection": "games", "id": "x2" }],
+  "stageName": "Volcanic Zone",
+  "elementType": "Fuego",
+  "weakTo": { "collection": "characters", "id": "bubble-crab" },
+  "weaponObtained": "Speed Burner",
+  "bio": [
+    "Maverick con forma de ciervo volante que vuela envuelto en llamas sobre un bosque incendiado, dejando un rastro de fuego a su paso.",
+    "El Bubble Splash de Bubble Crab apaga y daña su cuerpo en llamas de forma muy efectiva."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Flame_Stag"
+}

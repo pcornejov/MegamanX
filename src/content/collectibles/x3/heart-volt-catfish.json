@@ -1,0 +1,10 @@
+{
+  "id": "heart-volt-catfish",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Volt Catfish",
+  "stageName": "Represa hidroeléctrica",
+  "locationDescription": "Sobre un pozo de pinches, alcanzable deslizándose entre dos paredes enfrentadas.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 4
+}

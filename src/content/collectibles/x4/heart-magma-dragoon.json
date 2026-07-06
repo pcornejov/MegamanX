@@ -1,0 +1,10 @@
+{
+  "id": "heart-magma-dragoon",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Magma Dragoon",
+  "stageName": "Volcán/base de investigación volcánica",
+  "locationDescription": "Escondido en la fase de Magma Dragoon, en una zona alcanzable con el Ride Armor de la fase.",
+  "videoId": "8uNmA3rRanU",
+  "order": 1
+}

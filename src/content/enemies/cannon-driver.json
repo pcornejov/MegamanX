@@ -1,0 +1,8 @@
+{
+  "id": "cannon-driver",
+  "name": "Cannon Driver",
+  "games": [{ "collection": "games", "id": "x2" }],
+  "classification": "ground",
+  "description": "Mechaniloid pesado montado sobre orugas, equipado con un cañón fijo que dispara proyectiles de largo alcance además de atacar por contacto.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Cannon_Driver"
+}

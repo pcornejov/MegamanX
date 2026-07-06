@@ -1,0 +1,10 @@
+{
+  "id": "subtank-tunnel-rhino",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "sub-tank",
+  "name": "Sub Tank #2",
+  "stageName": "Obra de excavación subterránea (Tunnel Rhino)",
+  "locationDescription": "En la sección donde caen rocas, justo encima del pozo que lleva hacia abajo.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 2
+}

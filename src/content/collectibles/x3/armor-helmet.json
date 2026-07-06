@@ -1,0 +1,10 @@
+{
+  "id": "armor-helmet",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "armor-part",
+  "name": "Casco de Dr. Light",
+  "stageName": "Obra de excavación subterránea (Tunnel Rhino)",
+  "locationDescription": "Escondida en la fase de Tunnel Rhino. Muestra el mapa de la fase y la ubicación de los objetos restantes.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 2
+}

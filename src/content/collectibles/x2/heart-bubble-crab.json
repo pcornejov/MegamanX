@@ -1,0 +1,10 @@
+{
+  "id": "heart-bubble-crab",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Bubble Crab",
+  "stageName": "Deep-Sea Base",
+  "locationDescription": "Después de que se abre una trampilla roja, hay que trepar paredes y cruzar plataformas móviles hasta encontrarlo.",
+  "videoId": "9c10KjpHha4",
+  "order": 4
+}

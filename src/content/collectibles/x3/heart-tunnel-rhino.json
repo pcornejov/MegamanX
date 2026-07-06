@@ -1,0 +1,10 @@
+{
+  "id": "heart-tunnel-rhino",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Tunnel Rhino",
+  "stageName": "Obra de excavación subterránea",
+  "locationDescription": "Detrás de una roca que se destruye con el ataque cargado del Triad Thunder.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 3
+}

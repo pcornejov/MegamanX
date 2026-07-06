@@ -1,0 +1,10 @@
+{
+  "id": "heart-frost-walrus",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Frost Walrus",
+  "stageName": "Base ártica de Repliforce",
+  "locationDescription": "Escondido en la fase de Frost Walrus, cerca de donde también está el Sub Tank de esa zona.",
+  "videoId": "8uNmA3rRanU",
+  "order": 3
+}

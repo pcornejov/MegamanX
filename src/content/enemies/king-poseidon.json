@@ -1,0 +1,9 @@
+{
+  "id": "king-poseidon",
+  "name": "King Poseidon",
+  "games": [{ "collection": "games", "id": "x4" }],
+  "classification": "boss-minion",
+  "description": "Mid-jefe acuático con forma de criatura marina gigante que aparece en la base naval, atacando con embestidas, disparos dispersos y estocadas.",
+  "notes": "Inmune a Ground Hunter, Double Cyclone y Twin Slasher; muy débil al Lightning Web.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/King_Poseidon"
+}

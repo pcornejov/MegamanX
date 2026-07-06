@@ -1,0 +1,8 @@
+{
+  "id": "drimole-w",
+  "name": "Drimole-W",
+  "games": [{ "collection": "games", "id": "x3" }],
+  "classification": "ground",
+  "description": "Mechaniloid perforador que se desplaza bajo tierra y emerge para atacar con sus taladros; al ser destruido, deja caer sus dos brocas como proyectiles.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Drimole-W"
+}

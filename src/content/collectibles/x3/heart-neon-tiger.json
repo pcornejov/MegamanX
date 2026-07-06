@@ -1,0 +1,10 @@
+{
+  "id": "heart-neon-tiger",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Neon Tiger",
+  "stageName": "Selva de neón",
+  "locationDescription": "Subiéndose a un enemigo volador y trepando por encima de la puerta final de la fase.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 6
+}

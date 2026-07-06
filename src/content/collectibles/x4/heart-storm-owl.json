@@ -1,0 +1,10 @@
+{
+  "id": "heart-storm-owl",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Storm Owl",
+  "stageName": "Portaaviones/base aérea",
+  "locationDescription": "Escondido en la fase de Storm Owl, en la misma zona donde está la pieza de brazo de la Fourth Armor.",
+  "videoId": "8uNmA3rRanU",
+  "order": 7
+}

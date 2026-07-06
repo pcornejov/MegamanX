@@ -1,0 +1,10 @@
+{
+  "id": "heart-flame-stag",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Flame Stag",
+  "stageName": "Volcanic Zone",
+  "locationDescription": "Durante la sección donde sube la lava, hay que trepar paredes y destruir un obstáculo a mitad de camino sobre el lado izquierdo.",
+  "videoId": "9c10KjpHha4",
+  "order": 5
+}

@@ -1,0 +1,14 @@
+{
+  "id": "agile",
+  "name": "Agile",
+  "role": "reploid",
+  "aliases": [],
+  "games": [{ "collection": "games", "id": "x2" }],
+  "bio": [
+    "Agile es el más veloz y ágil de los X-Hunters, un espadachín que combina velocidad con ataques precisos. Es también el último de los tres en ser enfrentado por X.",
+    "Su escenario esconde la cápsula secreta del Shoryuken, la técnica homenaje a Street Fighter que X puede aprender si reúne el 100% de los objetos del juego."
+  ],
+  "affiliation": "X-Hunters (remanentes de Sigma)",
+  "rank": "Miembro de los X-Hunters",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Agile"
+}

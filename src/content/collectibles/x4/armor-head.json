@@ -1,0 +1,10 @@
+{
+  "id": "armor-head",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "armor-part",
+  "name": "Casco de la Fourth Armor",
+  "stageName": "Estudio de televisión (Cyber Peacock)",
+  "locationDescription": "Escondido en la fase de Cyber Peacock, junto al Sub Tank de esa zona.",
+  "videoId": "8uNmA3rRanU",
+  "order": 1
+}

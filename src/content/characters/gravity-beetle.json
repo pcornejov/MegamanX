@@ -1,0 +1,17 @@
+{
+  "id": "gravity-beetle",
+  "name": "Gravity Beetle",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x3" },
+  "games": [{ "collection": "games", "id": "x3" }],
+  "stageName": "Estación espacial de gravedad",
+  "elementType": "Gravedad",
+  "weakTo": { "collection": "characters", "id": "neon-tiger" },
+  "weaponObtained": "Gravity Well",
+  "bio": [
+    "Maverick con forma de escarabajo que manipula la gravedad de su escenario, invirtiéndola para desorientar a sus oponentes.",
+    "El Ray Splasher de Neon Tiger lo golpea repetidas veces mientras flota, siendo su debilidad más efectiva."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Gravity_Beetle"
+}

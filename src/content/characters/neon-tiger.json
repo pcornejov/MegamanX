@@ -1,0 +1,17 @@
+{
+  "id": "neon-tiger",
+  "name": "Neon Tiger",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x3" },
+  "games": [{ "collection": "games", "id": "x3" }],
+  "stageName": "Selva de neón",
+  "elementType": "Luz/Naturaleza",
+  "weakTo": { "collection": "characters", "id": "crush-crawfish" },
+  "weaponObtained": "Ray Splasher",
+  "bio": [
+    "Maverick con forma de tigre que se mueve a gran velocidad entre la vegetación de su escenario, atacando con garras y proyectiles de energía luminosa.",
+    "El Spinning Blade de Crush Crawfish lo golpea múltiples veces por ataque, siendo muy eficaz en su contra."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Neon_Tiger"
+}

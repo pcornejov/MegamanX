@@ -1,0 +1,10 @@
+{
+  "id": "subtank-magna-centipede",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "sub-tank",
+  "name": "Sub Tank #4",
+  "stageName": "Central Computer (Magna Centipede)",
+  "locationDescription": "Con el disparo cargado de Speed Burner después de un dash-jump se puede alcanzar y trepar una pared hasta el último Sub Tank del juego.",
+  "videoId": "9c10KjpHha4",
+  "order": 4
+}

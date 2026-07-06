@@ -1,0 +1,10 @@
+{
+  "id": "heart-crush-crawfish",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Crush Crawfish",
+  "stageName": "Planta de reciclaje acuática",
+  "locationDescription": "Detrás de una pared agrietada que se puede romper a golpes o con los misiles del transporte Hawk.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 5
+}

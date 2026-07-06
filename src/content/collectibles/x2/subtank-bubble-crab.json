@@ -1,0 +1,10 @@
+{
+  "id": "subtank-bubble-crab",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "sub-tank",
+  "name": "Sub Tank #2",
+  "stageName": "Deep-Sea Base (Bubble Crab)",
+  "locationDescription": "Cargando el Bubble Splash es posible dar un salto mucho más alto de lo normal; usarlo para llegar a un hueco a la izquierda donde está escondido el tanque.",
+  "videoId": "9c10KjpHha4",
+  "order": 2
+}

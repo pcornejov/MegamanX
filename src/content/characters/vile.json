@@ -3,11 +3,12 @@
   "name": "Vile",
   "role": "reploid",
   "aliases": ["VAVA"],
-  "games": [{ "collection": "games", "id": "x1" }],
+  "games": [{ "collection": "games", "id": "x1" }, { "collection": "games", "id": "x3" }],
   "bio": [
     "Vile es un Reploid de combate diseñado específicamente para la guerra, mucho más violento y letal que un Maverick Hunter promedio — tanto que fue apartado del cuerpo de Hunters antes del inicio del juego por su conducta.",
     "Cuando Sigma se rebela, Vile se une de inmediato a su causa. En Mega Man X embosca a X al principio del juego y solo la intervención de Zero evita que lo destruya en ese momento.",
-    "Suele combatir montado en un Ride Armor propio equipado con cañón, ametralladora Vulcan y lanzallamas, mucho más resistente que los Ride Armor estándar que usan los Hunters."
+    "Suele combatir montado en un Ride Armor propio equipado con cañón, ametralladora Vulcan y lanzallamas, mucho más resistente que los Ride Armor estándar que usan los Hunters.",
+    "En Mega Man X3, sus restos son encontrados y reconstruidos en secreto por el Dr. Doppler, corrompido por el virus de Sigma. Regresa con un nuevo y mucho más poderoso Ride Armor para enfrentarse a X y Zero en varios puntos de la historia."
   ],
   "affiliation": "Mavericks (ex Maverick Hunter, dado de baja)",
   "rank": "Unidad de combate de élite (Class-S, según entregas posteriores)",

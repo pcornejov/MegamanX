@@ -1,0 +1,10 @@
+{
+  "id": "subtank-cyber-space",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "sub-tank",
+  "name": "Sub Tank #4",
+  "stageName": "Cyber Space (fase introductoria, Área 1)",
+  "locationDescription": "Recompensa especial por conseguir rango S en la segunda sección cronometrada de la fase introductoria de X, antes de llegar a los ocho Mavericks.",
+  "videoId": "8uNmA3rRanU",
+  "order": 4
+}

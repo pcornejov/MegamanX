@@ -1,0 +1,10 @@
+{
+  "id": "heart-wheel-gator",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Wheel Gator",
+  "stageName": "Dinosaur Tank",
+  "locationDescription": "A mitad de la fase, con el Speed Burner cargado se puede alcanzar una plataforma sobre una pared de pinches.",
+  "videoId": "9c10KjpHha4",
+  "order": 3
+}

@@ -1,0 +1,10 @@
+{
+  "id": "subtank-volt-catfish",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "sub-tank",
+  "name": "Sub Tank #4",
+  "stageName": "Represa hidroeléctrica (Volt Catfish)",
+  "locationDescription": "En una zona secreta a la que se llega cayendo por un pozo después de subirse a un transporte blindado durante la sección de esferas eléctricas.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 4
+}

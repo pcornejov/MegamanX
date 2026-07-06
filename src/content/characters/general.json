@@ -1,0 +1,15 @@
+{
+  "id": "general",
+  "name": "General",
+  "role": "reploid",
+  "aliases": [],
+  "games": [{ "collection": "games", "id": "x4" }],
+  "bio": [
+    "General es el imponente líder de Repliforce, una fuerza militar de Reploids con su propia base aérea, el Sky Lagoon. Es un comandante orgulloso que cree firmemente en la causa de su ejército.",
+    "Cuando el Sky Lagoon es destruido en un ataque y Repliforce es acusado sin pruebas concluyentes, General decide declarar la independencia de su fuerza en lugar de someterse a una investigación que considera injusta, arrastrando a Repliforce a una guerra con los Maverick Hunters.",
+    "Al final del conflicto, sacrifica su propia vida para destruir el arma definitiva de Repliforce y evitar una masacre mayor, revelando que nunca quiso la guerra que terminó desatando."
+  ],
+  "affiliation": "Líder de Repliforce",
+  "rank": "Comandante en jefe de Repliforce",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/General"
+}

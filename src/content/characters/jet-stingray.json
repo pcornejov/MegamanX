@@ -1,0 +1,17 @@
+{
+  "id": "jet-stingray",
+  "name": "Jet Stingray",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x4" },
+  "games": [{ "collection": "games", "id": "x4" }],
+  "stageName": "Base naval (Marine Base)",
+  "elementType": "Agua/Velocidad",
+  "weakTo": { "collection": "characters", "id": "frost-walrus" },
+  "weaponObtained": "Ground Hunter",
+  "bio": [
+    "Maverick con forma de mantarraya que nada a gran velocidad por una base naval, embistiendo y disparando proyectiles eléctricos bajo el agua.",
+    "El Frost Tower de Frost Walrus congela el agua a su alrededor y lo inmoviliza, dejándolo abierto a un contraataque."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Jet_Stingray"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "heart-cyber-peacock",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Cyber Peacock",
+  "stageName": "Estudio de televisión",
+  "locationDescription": "Escondido en la fase de Cyber Peacock, cerca de donde están el Sub Tank y el casco de la Fourth Armor.",
+  "videoId": "8uNmA3rRanU",
+  "order": 6
+}

@@ -1,0 +1,10 @@
+{
+  "id": "heart-slash-beast",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Slash Beast",
+  "stageName": "Instalación industrial/laboratorio",
+  "locationDescription": "Escondido en la fase de Slash Beast, en una zona secundaria del laboratorio.",
+  "videoId": "8uNmA3rRanU",
+  "order": 8
+}

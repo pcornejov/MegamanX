@@ -1,0 +1,17 @@
+{
+  "id": "cyber-peacock",
+  "name": "Cyber Peacock",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x4" },
+  "games": [{ "collection": "games", "id": "x4" }],
+  "stageName": "Estudio de televisión/sala de proyecciones",
+  "elementType": "Ilusión óptica/Láseres",
+  "weakTo": { "collection": "characters", "id": "split-mushroom" },
+  "weaponObtained": "Aiming Laser",
+  "bio": [
+    "Maverick con forma de pavo real que proyecta hologramas y patrones ópticos confusos en un estudio lleno de pantallas, mientras dispara láseres teledirigidos.",
+    "El Soul Body de Split Mushroom crea un clon que lo distrae mientras es atacado, siendo muy efectivo en su contra."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Cyber_Peacock"
+}

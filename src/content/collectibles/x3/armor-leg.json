@@ -1,0 +1,10 @@
+{
+  "id": "armor-leg",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "armor-part",
+  "name": "Piernas de Dr. Light (Air Dash)",
+  "stageName": "Base ártica (Blizzard Buffalo)",
+  "locationDescription": "Escondida en la fase de Blizzard Buffalo. Permite hacer air-dash hacia los lados e incluso hacia arriba en pleno salto.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 1
+}

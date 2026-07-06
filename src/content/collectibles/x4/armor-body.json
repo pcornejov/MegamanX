@@ -1,0 +1,10 @@
+{
+  "id": "armor-body",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "armor-part",
+  "name": "Cuerpo de la Fourth Armor",
+  "stageName": "Volcán/base de investigación volcánica (Magma Dragoon)",
+  "locationDescription": "En un hueco bloqueado cerca de donde se consigue el Ride Armor de la fase; hace falta un brazo ya mejorado y el Twin Slasher cargado para destruir los bloques que lo tapan.",
+  "videoId": "8uNmA3rRanU",
+  "order": 2
+}

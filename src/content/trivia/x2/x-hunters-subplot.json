@@ -1,0 +1,8 @@
+{
+  "id": "x-hunters-subplot",
+  "game": { "collection": "games", "id": "x2" },
+  "category": "design",
+  "title": "Un subargumento paralelo que corre contra el reloj",
+  "body": "Mega Man X2 introduce un sistema poco común para la época: mientras X avanza por las ocho fases principales, un contador interno determina cuánto tardan los X-Hunters en reconstruir a Sigma con las piezas de Zero que van encontrando. Cuantas más fases completa X antes de enfrentarlos, más fácil es la pelea contra la forma final de Sigma, premiando la exploración temprana.",
+  "sourceUrl": "https://megaman.fandom.com/wiki/Mega_Man_X2"
+}

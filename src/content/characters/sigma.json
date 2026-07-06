@@ -3,12 +3,15 @@
   "name": "Sigma",
   "role": "other",
   "aliases": ["Σ"],
-  "games": [{ "collection": "games", "id": "x1" }],
+  "games": [{ "collection": "games", "id": "x1" }, { "collection": "games", "id": "x2" }, { "collection": "games", "id": "x3" }, { "collection": "games", "id": "x4" }],
   "bio": [
     "Sigma es el Reploid de combate más avanzado de su generación y, antes de los eventos del juego, el comandante en jefe de los Maverick Hunters. Es, irónicamente, el primer gran Maverick de la saga.",
     "Fascinado y perturbado por el potencial de X, Sigma se rebela contra la humanidad y lidera un levantamiento de Reploids con el objetivo declarado de que los Reploids reemplacen a los humanos como especie dominante.",
+    "Aunque es aparentemente destruido al final de Mega Man X, su virus y su voluntad sobreviven: en Mega Man X2 manipula en secreto a los X-Hunters para recuperar los restos de Zero y usarlos como arma contra X.",
+    "En Mega Man X3 su virus infecta en secreto al Dr. Doppler, corrompiendo su proyecto de paz entre Reploids y humanos y usándolo como excusa para lanzar un nuevo levantamiento de Mavericks.",
+    "En Mega Man X4 orquesta en la sombra todo el conflicto entre los Maverick Hunters y Repliforce, provocando el accidente del Sky Lagoon a través de Magma Dragoon y Double para enfrentar a ambos bandos entre sí mientras él observa desde la Luna.",
     "Se convierte en el antagonista recurrente de toda la serie X, regresando en formas y cuerpos distintos en casi todos los juegos posteriores incluso después de ser derrotado."
   ],
-  "notes": "Jefe final de Mega Man X, en dos fases: su forma Reploid y una segunda forma orgánica/monstruosa tras ser gravemente dañado.",
+  "notes": "Jefe final de Mega Man X, en dos fases: su forma Reploid y una segunda forma orgánica/monstruosa tras ser gravemente dañado. También jefe final de Mega Man X2 y Mega Man X3, siempre regresando en un nuevo cuerpo.",
   "sourceWikiUrl": "https://megaman.fandom.com/wiki/Sigma"
 }

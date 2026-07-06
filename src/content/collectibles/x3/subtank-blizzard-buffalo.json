@@ -1,0 +1,10 @@
+{
+  "id": "subtank-blizzard-buffalo",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "sub-tank",
+  "name": "Sub Tank #1",
+  "stageName": "Base ártica (Blizzard Buffalo)",
+  "locationDescription": "Requiere ya tener las piernas de Dr. Light: al salir del área techada hacia la zona exterior nevada, un air-dash en pleno vuelo permite alcanzar el tanque, escondido en lo alto de la pared izquierda.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 1
+}

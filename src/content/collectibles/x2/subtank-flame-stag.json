@@ -1,0 +1,10 @@
+{
+  "id": "subtank-flame-stag",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "sub-tank",
+  "name": "Sub Tank #3",
+  "stageName": "Volcanic Zone (Flame Stag)",
+  "locationDescription": "Hay que subirse al lomo del primer escarabajo volador de la fase; te lleva hasta arriba, donde el tanque está guardado en la esquina izquierda.",
+  "videoId": "9c10KjpHha4",
+  "order": 3
+}

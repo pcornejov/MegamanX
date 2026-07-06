@@ -1,0 +1,10 @@
+{
+  "id": "armor-body",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "armor-part",
+  "name": "Armadura corporal de Dr. Light",
+  "stageName": "Represa hidroeléctrica (Volt Catfish)",
+  "locationDescription": "Escondida en la fase de Volt Catfish. Reduce a la mitad el daño que recibe X gracias a un campo de energía protector.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 3
+}

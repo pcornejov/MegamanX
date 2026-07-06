@@ -1,0 +1,10 @@
+{
+  "id": "heart-wire-sponge",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Wire Sponge",
+  "stageName": "Weather Control",
+  "locationDescription": "Está casi al comienzo de la fase: basta con trepar la pared de la izquierda apenas arranca el nivel.",
+  "videoId": "9c10KjpHha4",
+  "order": 2
+}

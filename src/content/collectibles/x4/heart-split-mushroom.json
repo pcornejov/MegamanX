@@ -1,0 +1,10 @@
+{
+  "id": "heart-split-mushroom",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Split Mushroom",
+  "stageName": "Templo/ruinas ocultas",
+  "locationDescription": "Escondido en la fase de Split Mushroom, en una zona de las ruinas fuera de la ruta principal.",
+  "videoId": "8uNmA3rRanU",
+  "order": 5
+}

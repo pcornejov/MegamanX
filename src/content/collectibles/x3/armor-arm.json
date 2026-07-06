@@ -1,0 +1,10 @@
+{
+  "id": "armor-arm",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "armor-part",
+  "name": "Brazo de Dr. Light",
+  "stageName": "Selva de neón (Neon Tiger)",
+  "locationDescription": "Escondida en la fase de Neon Tiger. Le da al X-Buster un disparo tipo onda y habilita un ataque combinado adicional.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 4
+}

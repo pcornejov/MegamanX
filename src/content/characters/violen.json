@@ -1,0 +1,14 @@
+{
+  "id": "violen",
+  "name": "Violen",
+  "role": "reploid",
+  "aliases": [],
+  "games": [{ "collection": "games", "id": "x2" }],
+  "bio": [
+    "Violen es el miembro más agresivo y directo de los X-Hunters, un peleador cuerpo a cuerpo brutal que prefiere resolver los enfrentamientos por la fuerza bruta antes que con estrategia.",
+    "Custodia una de las piezas de Zero en su propio escenario dentro de la base de los X-Hunters."
+  ],
+  "affiliation": "X-Hunters (remanentes de Sigma)",
+  "rank": "Miembro de los X-Hunters",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Violen"
+}

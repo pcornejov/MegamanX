@@ -1,0 +1,10 @@
+{
+  "id": "heart-magna-centipede",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Magna Centipede",
+  "stageName": "Central Computer",
+  "locationDescription": "Desde una plataforma elevada, un dash-jump con el Speed Burner cargado permite alcanzar el tanque.",
+  "videoId": "9c10KjpHha4",
+  "order": 7
+}

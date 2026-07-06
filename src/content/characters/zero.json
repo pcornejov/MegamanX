@@ -3,10 +3,13 @@
   "name": "Zero",
   "role": "hero",
   "aliases": ["Rockman Zero"],
-  "games": [{ "collection": "games", "id": "x1" }],
+  "games": [{ "collection": "games", "id": "x1" }, { "collection": "games", "id": "x2" }, { "collection": "games", "id": "x3" }, { "collection": "games", "id": "x4" }],
   "bio": [
     "Zero es un Reploid de combate de origen misterioso y el segundo al mando de los Maverick Hunters. Se distingue por su armadura roja, su larga coleta rubia y, sobre todo, por pelear con un Sable Z de energía en lugar de un cañón de brazo.",
     "En Mega Man X actúa como mentor y rival amistoso de X: aparece en momentos clave de la historia para ayudarlo, entrenarlo y, finalmente, sacrificarse para permitirle avanzar hacia el enfrentamiento final con Sigma.",
+    "En Mega Man X2 se revela que sus restos sobrevivieron: un trío de Reploids remanentes de Sigma, los X-Hunters, los recuperan y los usan como cebo para atraer a X, obligándolo a recuperar las piezas de Zero antes de poder reconstruirlo.",
+    "Mega Man X3 es el primer juego en el que Zero es completamente jugable en la mayoría de las fases; si es derrotado en combate, queda fuera del resto de la partida, y si es él quien vence a un Maverick, X no recibe el arma de ese jefe.",
+    "En Mega Man X4 es jugable desde el inicio con su propia campaña completa, y vive uno de los momentos más duros de la saga: obligado a enfrentarse a Iris, la mujer de la que se había enamorado, en un conflicto que lo deja al borde de una crisis existencial.",
     "Su verdadero origen — ligado al propio Dr. Wily — se revela recién en entregas posteriores de la saga."
   ],
   "weapons": [

@@ -1,0 +1,10 @@
+{
+  "id": "armor-body",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "armor-part",
+  "name": "Armadura corporal de Dr. Light",
+  "stageName": "Robot Junkyard (Morph Moth)",
+  "locationDescription": "Escondida en la fase de Morph Moth. Reduce el daño recibido y habilita el Giga Crush: un ataque que limpia la pantalla una vez que la barra se llena al recibir golpes.",
+  "videoId": "9c10KjpHha4",
+  "order": 2
+}

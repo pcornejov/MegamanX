@@ -1,0 +1,15 @@
+{
+  "id": "dr-doppler",
+  "name": "Dr. Doppler",
+  "role": "reploid",
+  "aliases": [],
+  "games": [{ "collection": "games", "id": "x3" }],
+  "bio": [
+    "El Dr. Doppler es un Reploid científico que descubre una posible cura para el virus Maverick y funda Doppler Town, una colonia donde los Reploids curados conviven en paz bajo su supervisión.",
+    "Sin que él mismo lo sepa al principio, Sigma corrompe en secreto su investigación e infecta tanto a Doppler como a los habitantes de su colonia, convirtiendo el proyecto de paz en el origen de un nuevo levantamiento Maverick.",
+    "Cuando descubre la manipulación, se ve forzado a elegir entre las consecuencias de su propio error y la posibilidad de ayudar a detenerlo."
+  ],
+  "affiliation": "Doppler Town (manipulado por Sigma)",
+  "rank": "Científico e investigador del virus Maverick",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Dr._Doppler"
+}

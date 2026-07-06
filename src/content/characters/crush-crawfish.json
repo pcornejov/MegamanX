@@ -1,0 +1,17 @@
+{
+  "id": "crush-crawfish",
+  "name": "Crush Crawfish",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x3" },
+  "games": [{ "collection": "games", "id": "x3" }],
+  "stageName": "Planta de reciclaje acuática",
+  "elementType": "Agua/Fuerza",
+  "weakTo": { "collection": "characters", "id": "volt-catfish" },
+  "weaponObtained": "Spinning Blade",
+  "bio": [
+    "Maverick con forma de langosta que ataca aplastando con sus enormes pinzas y saltando entre las plataformas de su escenario acuático.",
+    "El Triad Thunder de Volt Catfish lo electrocuta con gran efectividad, incluso a través del agua que lo rodea."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Crush_Crawfish"
+}

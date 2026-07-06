@@ -1,0 +1,8 @@
+{
+  "id": "gold-armor",
+  "game": { "collection": "games", "id": "x3" },
+  "category": "easter-egg",
+  "title": "La Armadura Dorada premia no usar las mejoras normales",
+  "body": "Mega Man X3 esconde una segunda armadura secreta, más poderosa que la habitual: para conseguirla, X debe encontrar los cuatro chips de mejora normales (las cápsulas rosas) sin usarlos nunca, y en cambio reunir los cuatro Ride Armors, los 8 Heart Tanks y los 4 Sub Tanks. Si se cumplen esas condiciones, en la primera fase de Doppler aparece un Hyper Chip que combina todos los efectos de las mejoras y tiñe la armadura de dorado.",
+  "sourceUrl": "https://megaman.fandom.com/wiki/Armor_Parts_(Mega_Man_X3)"
+}

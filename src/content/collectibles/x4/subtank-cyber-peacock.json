@@ -1,0 +1,10 @@
+{
+  "id": "subtank-cyber-peacock",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "sub-tank",
+  "name": "Sub Tank #3",
+  "stageName": "Estudio de televisión (Cyber Peacock)",
+  "locationDescription": "Escondido junto al casco de Dr. Light en la fase de Cyber Peacock.",
+  "videoId": "8uNmA3rRanU",
+  "order": 3
+}

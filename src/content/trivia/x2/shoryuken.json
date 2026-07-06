@@ -1,0 +1,8 @@
+{
+  "id": "shoryuken",
+  "game": { "collection": "games", "id": "x2" },
+  "category": "easter-egg",
+  "title": "El Shoryuken, la segunda referencia a Street Fighter de la saga",
+  "body": "Igual que el Hadouken del primer juego, el Shoryuken es un secreto que requiere el 100% del juego (los 8 Heart Tanks, los 4 Sub Tanks y las 4 piezas de armadura) más una cápsula extra escondida en la fase de Agile, uno de los X-Hunters. El movimiento, un uppercut llameante que puede eliminar a casi cualquier enemigo de un solo golpe, no se guarda con contraseñas: si se apaga el juego hay que volver a conseguirlo.",
+  "sourceUrl": "https://megaman.fandom.com/wiki/Shoryuken"
+}

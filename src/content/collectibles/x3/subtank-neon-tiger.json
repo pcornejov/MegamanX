@@ -1,0 +1,10 @@
+{
+  "id": "subtank-neon-tiger",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "sub-tank",
+  "name": "Sub Tank #3",
+  "stageName": "Selva de neón (Neon Tiger)",
+  "locationDescription": "En la zona abierta inicial de la fase; se llega combinando air-dash y plataformas hasta la esquina superior derecha.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 3
+}

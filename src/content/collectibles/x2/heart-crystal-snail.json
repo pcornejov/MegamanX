@@ -1,0 +1,10 @@
+{
+  "id": "heart-crystal-snail",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Crystal Snail",
+  "stageName": "Energen Cave",
+  "locationDescription": "Cerca del inicio de la fase, usando la habilidad de planeo del Ride Armor conejo se llega a un pasaje escondido.",
+  "videoId": "9c10KjpHha4",
+  "order": 8
+}

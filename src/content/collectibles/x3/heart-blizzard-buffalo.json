@@ -1,0 +1,10 @@
+{
+  "id": "heart-blizzard-buffalo",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Blizzard Buffalo",
+  "stageName": "Base ártica",
+  "locationDescription": "Escondido bajo bloques de hielo destructibles con el Tornado Fang o con el ataque de taladro de la armadura Chimera.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 1
+}

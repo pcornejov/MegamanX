@@ -1,0 +1,10 @@
+{
+  "id": "subtank-jet-stingray",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "sub-tank",
+  "name": "Sub Tank #2",
+  "stageName": "Base naval (Jet Stingray)",
+  "locationDescription": "Cerca del final de la fase, cuando el escenario se inunda tras el segundo encuentro con Jet Stingray.",
+  "videoId": "8uNmA3rRanU",
+  "order": 2
+}

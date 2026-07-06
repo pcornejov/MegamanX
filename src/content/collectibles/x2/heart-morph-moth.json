@@ -1,0 +1,10 @@
+{
+  "id": "heart-morph-moth",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Morph Moth",
+  "stageName": "Robot Junkyard",
+  "locationDescription": "Hay que congelar con el Crystal Hunter a un enemigo que lanza discos y usarlo como plataforma para llegar hasta el tanque.",
+  "videoId": "9c10KjpHha4",
+  "order": 6
+}

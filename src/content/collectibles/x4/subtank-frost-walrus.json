@@ -1,0 +1,10 @@
+{
+  "id": "subtank-frost-walrus",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "sub-tank",
+  "name": "Sub Tank #1",
+  "stageName": "Base ártica de Repliforce (Frost Walrus)",
+  "locationDescription": "Escondido junto a un ítem EX en un área secundaria de la fase de Frost Walrus.",
+  "videoId": "8uNmA3rRanU",
+  "order": 1
+}

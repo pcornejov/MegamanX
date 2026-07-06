@@ -1,0 +1,8 @@
+{
+  "id": "hanged-reploid",
+  "name": "Hanged Reploid",
+  "games": [{ "collection": "games", "id": "x2" }],
+  "classification": "aerial",
+  "description": "Reploid enemigo que cuelga inmóvil del techo hasta que X se acerca; entonces su torso se separa de la cabeza y ataca lanzando bolas de fuego.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Hanged_Reploid"
+}

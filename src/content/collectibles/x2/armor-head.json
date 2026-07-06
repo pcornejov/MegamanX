@@ -1,0 +1,10 @@
+{
+  "id": "armor-head",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "armor-part",
+  "name": "Casco de Dr. Light",
+  "stageName": "Energen Cave (Crystal Snail)",
+  "locationDescription": "Escondida en la fase de Crystal Snail. Permite detectar pasajes y objetos ocultos que a simple vista no se ven.",
+  "videoId": "9c10KjpHha4",
+  "order": 1
+}

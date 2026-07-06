@@ -1,0 +1,8 @@
+{
+  "id": "caterkiller",
+  "name": "Caterkiller",
+  "games": [{ "collection": "games", "id": "x3" }],
+  "classification": "ground",
+  "description": "Mechaniloid con forma de oruga segmentada que avanza lentamente por el suelo y dispara bolas eléctricas cuando se le da tiempo para cargar el ataque.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Caterkiller"
+}

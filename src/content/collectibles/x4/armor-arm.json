@@ -1,0 +1,10 @@
+{
+  "id": "armor-arm",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "armor-part",
+  "name": "Brazo de la Fourth Armor (Stock o Plasma)",
+  "stageName": "Portaaviones/base aérea (Storm Owl)",
+  "locationDescription": "Escondido en la fase de Storm Owl. La sala tiene dos cápsulas de Dr. Light: una da el Stock Charge Shot y la otra el Plasma Charge Shot, y solo se puede elegir una por partida.",
+  "videoId": "8uNmA3rRanU",
+  "order": 3
+}

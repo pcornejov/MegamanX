@@ -1,0 +1,10 @@
+{
+  "id": "heart-web-spider",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Web Spider",
+  "stageName": "Torre/red de comunicaciones",
+  "locationDescription": "Escondido en la fase de Web Spider, en la misma zona donde se encuentra la pieza de piernas de la Fourth Armor.",
+  "videoId": "8uNmA3rRanU",
+  "order": 2
+}

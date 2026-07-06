@@ -1,0 +1,10 @@
+{
+  "id": "heart-jet-stingray",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Jet Stingray",
+  "stageName": "Base naval (Marine Base)",
+  "locationDescription": "Escondido en la fase de Jet Stingray, en una sección submarina de la base naval.",
+  "videoId": "8uNmA3rRanU",
+  "order": 4
+}

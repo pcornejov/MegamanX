@@ -1,0 +1,10 @@
+{
+  "id": "armor-leg",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "armor-part",
+  "name": "Piernas de Dr. Light (Air Dash)",
+  "stageName": "Desert Base (Overdrive Ostrich)",
+  "locationDescription": "Escondida en la fase de Overdrive Ostrich. Habilita el dash en pleno aire, aunque no se puede combinar con un dash-jump dentro del mismo salto.",
+  "videoId": "9c10KjpHha4",
+  "order": 4
+}

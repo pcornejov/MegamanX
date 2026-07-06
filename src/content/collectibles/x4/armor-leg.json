@@ -1,0 +1,10 @@
+{
+  "id": "armor-leg",
+  "game": { "collection": "games", "id": "x4" },
+  "type": "armor-part",
+  "name": "Piernas de la Fourth Armor",
+  "stageName": "Torre/red de comunicaciones (Web Spider)",
+  "locationDescription": "Escondida en la fase de Web Spider. Habilita el hover (planeo breve) y es clave para llegar a varios secretos posteriores.",
+  "videoId": "8uNmA3rRanU",
+  "order": 4
+}

@@ -1,0 +1,10 @@
+{
+  "id": "heart-gravity-beetle",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Gravity Beetle",
+  "stageName": "Estación espacial de gravedad",
+  "locationDescription": "Detrás de una pared que solo desaparece después de haber derrotado a Blast Hornet.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 7
+}

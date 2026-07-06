@@ -1,0 +1,10 @@
+{
+  "id": "heart-blast-hornet",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Blast Hornet",
+  "stageName": "Fábrica de armamento aéreo",
+  "locationDescription": "Trepando una pared después de bajarse del transporte Chimera en un túnel angosto.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 8
+}

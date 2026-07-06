@@ -3,7 +3,7 @@
   "name": "X",
   "role": "hero",
   "aliases": ["Mega Man X", "Rockman X"],
-  "games": [{ "collection": "games", "id": "x1" }],
+  "games": [{ "collection": "games", "id": "x1" }, { "collection": "games", "id": "x2" }, { "collection": "games", "id": "x3" }, { "collection": "games", "id": "x4" }],
   "bio": [
     "X es el último robot construido por el Dr. Thomas Light: la primera máquina con la capacidad de pensar y sentir por sí misma, en lugar de limitarse a seguir órdenes. Por miedo al potencial de esa libertad, Light lo selló durante 30 años, sometiéndolo a pruebas de seguridad continuas antes de considerarlo listo para el mundo.",
     "Encontrado por el Dr. Cain, X se convierte en el modelo original de los Reploids. Aunque no fue diseñado para el combate, se une a los Maverick Hunters para intentar demostrar que los Reploids y los humanos pueden convivir en paz, incluso cuando eso signifique enfrentarse a los suyos.",

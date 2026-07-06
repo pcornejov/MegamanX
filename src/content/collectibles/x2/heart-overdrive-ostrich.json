@@ -1,0 +1,10 @@
+{
+  "id": "heart-overdrive-ostrich",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Overdrive Ostrich",
+  "stageName": "Desert Base",
+  "locationDescription": "Subido a la motocicleta de la fase, hay que hacer dash mientras se sube una rampa para alcanzar una plataforma con pinches.",
+  "videoId": "9c10KjpHha4",
+  "order": 1
+}

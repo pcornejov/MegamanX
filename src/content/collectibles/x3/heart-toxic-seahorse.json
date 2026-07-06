@@ -1,0 +1,10 @@
+{
+  "id": "heart-toxic-seahorse",
+  "game": { "collection": "games", "id": "x3" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Toxic Seahorse",
+  "stageName": "Planta de residuos tóxicos",
+  "locationDescription": "Sobre un pozo de escalada, accesible a través de una abertura en el techo.",
+  "videoId": "zi_jJQyCSWM",
+  "order": 2
+}

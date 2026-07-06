@@ -1,0 +1,10 @@
+{
+  "id": "subtank-wire-sponge",
+  "game": { "collection": "games", "id": "x2" },
+  "type": "sub-tank",
+  "name": "Sub Tank #1",
+  "stageName": "Weather Control (Wire Sponge)",
+  "locationDescription": "Cerca del inicio de la fase: hay que subirse a la primera plataforma voladora y luego hacer un dash-jump hacia la izquierda para alcanzar una pared con forma de árbol.",
+  "videoId": "9c10KjpHha4",
+  "order": 1
+}

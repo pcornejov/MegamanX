@@ -3,15 +3,27 @@
   "name": "Wheel Gator",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x2" },
-  "games": [{ "collection": "games", "id": "x2" }],
+  "game": {
+    "collection": "games",
+    "id": "x2"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "stageName": "Dinosaur Tank (transporte blindado)",
   "elementType": "Agua/Ruedas",
-  "weakTo": { "collection": "characters", "id": "wire-sponge" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "wire-sponge"
+  },
   "weaponObtained": "Spin Wheel",
   "bio": [
     "Maverick con forma de cocodrilo equipado con ruedas dentadas, custodia una zona de canales navegables. Es uno de los puntos de entrada recomendados porque puede vencerse solo con el X-Buster.",
     "Es débil al Strike Chain de Wire Sponge, que se engancha en su cuerpo y tira de él con facilidad."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Wheel_Gator"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Wheel_Gator",
+  "portrait": "/images/characters/wheel-gator.webp"
 }

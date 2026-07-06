@@ -1,8 +1,14 @@
 {
   "id": "beetron",
   "name": "Beetron",
-  "games": [{ "collection": "games", "id": "x2" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "classification": "ground",
   "description": "Mechaniloid con forma de escarabajo cuyo caparazón puede usarse como plataforma momentánea antes de que ataque por contacto.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Beetron"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Beetron",
+  "image": "/images/enemies/beetron.webp"
 }

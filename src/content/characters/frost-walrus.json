@@ -3,15 +3,27 @@
   "name": "Frost Walrus",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x4" },
-  "games": [{ "collection": "games", "id": "x4" }],
+  "game": {
+    "collection": "games",
+    "id": "x4"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "stageName": "Base ártica de Repliforce",
   "elementType": "Hielo",
-  "weakTo": { "collection": "characters", "id": "magma-dragoon" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "magma-dragoon"
+  },
   "weaponObtained": "Frost Tower",
   "bio": [
     "Maverick con forma de morsa que patrulla una base ártica, generando columnas de hielo y ondas de choque al golpear el suelo.",
     "El Rising Fire de Magma Dragoon derrite su defensa helada con facilidad, siendo un buen punto de entrada recomendado."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Frost_Walrus"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Frost_Walrus",
+  "portrait": "/images/characters/frost-walrus.webp"
 }

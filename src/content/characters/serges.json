@@ -3,12 +3,18 @@
   "name": "Serges",
   "role": "reploid",
   "aliases": [],
-  "games": [{ "collection": "games", "id": "x2" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "bio": [
     "Serges es el líder de los X-Hunters, un trío de Reploids remanentes del ejército de Sigma que sobrevivieron a la caída de la fortaleza en el primer juego. De complexión robusta, es el más estratega del grupo.",
     "Junto a Violen y Agile, recupera las piezas destruidas de Zero y las esconde en sus propios escenarios, obligando a X a enfrentarlos para poder reconstruir a su amigo."
   ],
   "affiliation": "X-Hunters (remanentes de Sigma)",
   "rank": "Líder de los X-Hunters",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Serges"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Serges",
+  "portrait": "/images/characters/serges.webp"
 }

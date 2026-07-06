@@ -22,7 +22,7 @@ const { order, characterId, characterName, portrait, stageName, weaponObtained, 
   <div class="step-head">
     <span class="step-number">{String(order).padStart(2, '0')}</span>
     <div class="portrait" aria-hidden={portrait ? undefined : 'true'}>
-      {portrait ? <img src={portrait} alt="" loading="lazy" /> : <span>{characterName.charAt(0)}</span>}
+      {portrait ? <img src={withBase(portrait)} alt="" loading="lazy" /> : <span>{characterName.charAt(0)}</span>}
     </div>
     <div>
       <h3><a href={withBase(`/characters/${characterId}`)}>{characterName}</a></h3>

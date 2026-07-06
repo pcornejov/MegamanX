@@ -15,7 +15,7 @@ const { id, name, role, tagline, portrait } = Astro.props;
 
 <a class="character-card panel-sm panel" href={withBase(`/characters/${id}`)}>
   <div class="portrait" aria-hidden={portrait ? undefined : 'true'}>
-    {portrait ? <img src={portrait} alt="" loading="lazy" /> : <span class="fallback">{name.charAt(0)}</span>}
+    {portrait ? <img src={withBase(portrait)} alt="" loading="lazy" /> : <span class="fallback">{name.charAt(0)}</span>}
   </div>
   <div class="info">
     <RoleBadge role={role} />

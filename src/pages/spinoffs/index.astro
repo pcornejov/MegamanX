@@ -30,6 +30,7 @@ const games = (await getCollection('games'))
               platforms={game.data.platforms}
               description={game.data.description}
               accentColor={game.data.accentColor}
+              coverImage={game.data.coverImage}
               comingSoon={game.data.comingSoon}
             />
           ))}

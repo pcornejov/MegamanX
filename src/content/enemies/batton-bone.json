@@ -1,8 +1,14 @@
 {
   "id": "batton-bone",
   "name": "Batton Bone",
-  "games": [{ "collection": "games", "id": "x1" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    }
+  ],
   "classification": "aerial",
   "description": "Mechaniloid con forma de murciélago que cuelga inmóvil de techos y estructuras hasta que X se acerca, momento en el que se suelta y vuela en línea recta hacia él.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Batton_Bone"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Batton_Bone",
+  "image": "/images/enemies/batton-bone.webp"
 }

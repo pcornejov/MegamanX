@@ -1,8 +1,14 @@
 {
   "id": "blady",
   "name": "Blady",
-  "games": [{ "collection": "games", "id": "x3" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x3"
+    }
+  ],
   "classification": "ground",
   "description": "Reploid enemigo armado con una cuchilla giratoria que patrulla de un lado a otro, atacando por contacto directo a quien se le acerque.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Blady"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Blady",
+  "image": "/images/enemies/blady.webp"
 }

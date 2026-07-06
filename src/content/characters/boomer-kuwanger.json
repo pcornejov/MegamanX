@@ -3,15 +3,27 @@
   "name": "Boomer Kuwanger",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x1" },
-  "games": [{ "collection": "games", "id": "x1" }],
+  "game": {
+    "collection": "games",
+    "id": "x1"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    }
+  ],
   "stageName": "Torre de comunicaciones",
   "elementType": "Psíquico/Teletransporte",
-  "weakTo": { "collection": "characters", "id": "launch-octopus" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "launch-octopus"
+  },
   "weaponObtained": "Boomerang Cutter",
   "bio": [
     "Maverick con forma de escarabajo ciervo que controla una torre de comunicaciones. Se teletransporta entre plataformas y ataca con cuchillas en forma de boomerang.",
     "El Homing Torpedo de Launch Octopus lo persigue incluso mientras se teletransporta, anulando su principal estrategia de evasión."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Boomer_Kuwanger"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Boomer_Kuwanger",
+  "portrait": "/images/characters/boomer-kuwanger.webp"
 }

@@ -30,7 +30,7 @@ const games = enemy.data.games.length > 0 ? await getEntries(enemy.data.games) :
 
     <header class="enemy-header">
       <div class="thumb" aria-hidden={enemy.data.image ? undefined : 'true'}>
-        {enemy.data.image ? <img src={enemy.data.image} alt="" /> : <span>?</span>}
+        {enemy.data.image ? <img src={withBase(enemy.data.image)} alt="" /> : <span>?</span>}
       </div>
       <div>
         <Badge>{classLabels[enemy.data.classification] ?? enemy.data.classification}</Badge>

@@ -1,8 +1,14 @@
 {
   "id": "guardian",
   "name": "Guardian",
-  "games": [{ "collection": "games", "id": "x4" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "classification": "ground",
   "description": "Robot de seguridad estándar de Repliforce, armado con un cañón de bala y resistente a varias de las Special Weapons obtenidas de los primeros Mavericks.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Guardian_(enemy)"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Guardian_(enemy)",
+  "image": "/images/enemies/guardian.webp"
 }

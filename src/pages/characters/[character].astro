@@ -44,7 +44,7 @@ if (data.role === 'hero' && data.specialAbility) {
 
     <header class="char-header">
       <div class="portrait" aria-hidden={data.portrait ? undefined : 'true'}>
-        {data.portrait ? <img src={data.portrait} alt="" /> : <span>{data.name.charAt(0)}</span>}
+        {data.portrait ? <img src={withBase(data.portrait)} alt="" /> : <span>{data.name.charAt(0)}</span>}
       </div>
       <div>
         <RoleBadge role={data.role} />

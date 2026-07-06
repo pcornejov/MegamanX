@@ -3,15 +3,27 @@
   "name": "Web Spider",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x4" },
-  "games": [{ "collection": "games", "id": "x4" }],
+  "game": {
+    "collection": "games",
+    "id": "x4"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "stageName": "Torre/red de comunicaciones",
   "elementType": "Electricidad/Telarañas",
-  "weakTo": { "collection": "characters", "id": "slash-beast" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "slash-beast"
+  },
   "weaponObtained": "Lightning Web",
   "bio": [
     "Maverick con forma de araña que tiende redes eléctricas por su escenario y se desplaza colgando de ellas para tender emboscadas.",
     "El Twin Slasher de Slash Beast corta sus redes y lo golpea directamente, siendo su debilidad más efectiva."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Web_Spider"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Web_Spider",
+  "portrait": "/images/characters/web-spider.webp"
 }

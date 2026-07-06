@@ -3,15 +3,27 @@
   "name": "Split Mushroom",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x4" },
-  "games": [{ "collection": "games", "id": "x4" }],
+  "game": {
+    "collection": "games",
+    "id": "x4"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "stageName": "Templo/ruinas ocultas",
   "elementType": "Ilusión/Clones",
-  "weakTo": { "collection": "characters", "id": "web-spider" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "web-spider"
+  },
   "weaponObtained": "Soul Body",
   "bio": [
     "Maverick con forma de hongo que se vuelve invisible y crea clones ilusorios de sí mismo para confundir a su oponente.",
     "El Lightning Web de Web Spider revela y atrapa sus clones e ilusiones, siendo la forma más confiable de derrotarlo."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Split_Mushroom"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Split_Mushroom",
+  "portrait": "/images/characters/split-mushroom.webp"
 }

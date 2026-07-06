@@ -2,8 +2,19 @@
   "id": "vile",
   "name": "Vile",
   "role": "reploid",
-  "aliases": ["VAVA"],
-  "games": [{ "collection": "games", "id": "x1" }, { "collection": "games", "id": "x3" }],
+  "aliases": [
+    "VAVA"
+  ],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    },
+    {
+      "collection": "games",
+      "id": "x3"
+    }
+  ],
   "bio": [
     "Vile es un Reploid de combate diseñado específicamente para la guerra, mucho más violento y letal que un Maverick Hunter promedio — tanto que fue apartado del cuerpo de Hunters antes del inicio del juego por su conducta.",
     "Cuando Sigma se rebela, Vile se une de inmediato a su causa. En Mega Man X embosca a X al principio del juego y solo la intervención de Zero evita que lo destruya en ese momento.",
@@ -12,5 +23,6 @@
   ],
   "affiliation": "Mavericks (ex Maverick Hunter, dado de baja)",
   "rank": "Unidad de combate de élite (Class-S, según entregas posteriores)",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Vile"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Vile",
+  "portrait": "/images/characters/vile.webp"
 }

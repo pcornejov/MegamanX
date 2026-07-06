@@ -3,15 +3,27 @@
   "name": "Slash Beast",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x4" },
-  "games": [{ "collection": "games", "id": "x4" }],
+  "game": {
+    "collection": "games",
+    "id": "x4"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "stageName": "Instalación industrial/laboratorio",
   "elementType": "Bestia/Garras",
-  "weakTo": { "collection": "characters", "id": "jet-stingray" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "jet-stingray"
+  },
   "weaponObtained": "Twin Slasher",
   "bio": [
     "Maverick con forma de bestia cuadrúpeda que ataca con embestidas veloces y zarpazos en un laboratorio industrial.",
     "El Ground Hunter de Jet Stingray lo rastrea por el suelo y lo golpea con eficacia incluso cuando intenta escapar."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Slash_Beast"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Slash_Beast",
+  "portrait": "/images/characters/slash-beast.webp"
 }

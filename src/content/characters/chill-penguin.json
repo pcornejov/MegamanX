@@ -3,15 +3,27 @@
   "name": "Chill Penguin",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x1" },
-  "games": [{ "collection": "games", "id": "x1" }],
+  "game": {
+    "collection": "games",
+    "id": "x1"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    }
+  ],
   "stageName": "Planta de energía ártica",
   "elementType": "Hielo",
-  "weakTo": { "collection": "characters", "id": "flame-mammoth" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "flame-mammoth"
+  },
   "weaponObtained": "Shotgun Ice",
   "bio": [
     "Maverick de tipo hielo que domina una planta de energía en una región ártica. Suele ser el primer Maverick que enfrentan los jugadores por diseño del juego: su pelea es manejable solo con el X-Buster y su escenario esconde las Dash Boots.",
     "Ataca deslizándose por el suelo helado y disparando ráfagas de hielo que pueden congelar a X si lo golpean de lleno."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Chill_Penguin"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Chill_Penguin",
+  "portrait": "/images/characters/chill-penguin.webp"
 }

@@ -3,15 +3,27 @@
   "name": "Crystal Snail",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x2" },
-  "games": [{ "collection": "games", "id": "x2" }],
+  "game": {
+    "collection": "games",
+    "id": "x2"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "stageName": "Energen Cave",
   "elementType": "Cristal/Tiempo",
-  "weakTo": { "collection": "characters", "id": "magna-centipede" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "magna-centipede"
+  },
   "weaponObtained": "Crystal Hunter",
   "bio": [
     "Maverick con forma de caracol que se retrae en su caparazón de cristal para volverse casi invulnerable, y puede ralentizar el tiempo a su alrededor.",
     "El Magnet Mine de Magna Centipede logra dañarlo incluso mientras está protegido dentro de su caparazón."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Crystal_Snail"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Crystal_Snail",
+  "portrait": "/images/characters/crystal-snail.webp"
 }

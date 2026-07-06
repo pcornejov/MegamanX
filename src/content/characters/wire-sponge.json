@@ -3,15 +3,27 @@
   "name": "Wire Sponge",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x2" },
-  "games": [{ "collection": "games", "id": "x2" }],
+  "game": {
+    "collection": "games",
+    "id": "x2"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "stageName": "Weather Control",
   "elementType": "Naturaleza/Cables",
-  "weakTo": { "collection": "characters", "id": "overdrive-ostrich" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "overdrive-ostrich"
+  },
   "weaponObtained": "Strike Chain",
   "bio": [
     "Maverick con forma de esponja vegetal que dispara cables eléctricos y puede regenerar su cuerpo poroso, custodiando una zona boscosa ligada a una planta de energía.",
     "El Sonic Slicer de Overdrive Ostrich corta su cuerpo esponjoso con facilidad, cerrando el ciclo de debilidades del juego: su propio Strike Chain es, a su vez, la debilidad de Wheel Gator, el primer Maverick recomendado."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Wire_Sponge"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Wire_Sponge",
+  "portrait": "/images/characters/wire-sponge.webp"
 }

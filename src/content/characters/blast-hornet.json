@@ -3,15 +3,27 @@
   "name": "Blast Hornet",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x3" },
-  "games": [{ "collection": "games", "id": "x3" }],
+  "game": {
+    "collection": "games",
+    "id": "x3"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x3"
+    }
+  ],
   "stageName": "Fábrica de armamento aéreo",
   "elementType": "Explosivos/Insecto",
-  "weakTo": { "collection": "characters", "id": "gravity-beetle" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "gravity-beetle"
+  },
   "weaponObtained": "Parasitic Bomb",
   "bio": [
     "Maverick con forma de avispa que vuela por su fábrica lanzando bombas parasitarias que se adhieren a su objetivo antes de detonar.",
     "El Gravity Well de Gravity Beetle lo derriba con facilidad, cerrando el ciclo de debilidades: su propia Parasitic Bomb es, a su vez, la debilidad de Blizzard Buffalo, el primer Maverick de la lista."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Blast_Hornet"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Blast_Hornet",
+  "portrait": "/images/characters/blast-hornet.webp"
 }

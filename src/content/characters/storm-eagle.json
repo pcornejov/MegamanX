@@ -3,15 +3,27 @@
   "name": "Storm Eagle",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x1" },
-  "games": [{ "collection": "games", "id": "x1" }],
+  "game": {
+    "collection": "games",
+    "id": "x1"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    }
+  ],
   "stageName": "Portaaviones aéreo",
   "elementType": "Viento/Aire",
-  "weakTo": { "collection": "characters", "id": "sting-chameleon" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "sting-chameleon"
+  },
   "weaponObtained": "Storm Tornado",
   "bio": [
     "Maverick de tipo aéreo que domina un portaaviones volador. Genera corrientes de viento para empujar a X hacia los bordes de la plataforma y ataca en picada desde el aire.",
     "El Chameleon Sting de Sting Chameleon es el arma más efectiva contra él, acortando una pelea que de otro modo se alarga por su movilidad."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Storm_Eagle"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Storm_Eagle",
+  "portrait": "/images/characters/storm-eagle.webp"
 }

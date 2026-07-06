@@ -23,7 +23,7 @@ const { id, name, classification, image } = Astro.props;
 
 <a class="enemy-card panel-sm panel" href={withBase(`/enemies/${id}`)}>
   <div class="thumb">
-    {image ? <img src={image} alt="" loading="lazy" /> : <span class="fallback">?</span>}
+    {image ? <img src={withBase(image)} alt="" loading="lazy" /> : <span class="fallback">?</span>}
   </div>
   <h3>{name}</h3>
   <Badge>{classLabels[classification] ?? classification}</Badge>

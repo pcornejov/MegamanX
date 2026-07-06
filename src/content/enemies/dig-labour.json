@@ -1,8 +1,14 @@
 {
   "id": "dig-labour",
   "name": "Dig Labour",
-  "games": [{ "collection": "games", "id": "x1" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    }
+  ],
   "classification": "ground",
   "description": "Mechaniloid minero equipado con un pico, usado originalmente para tareas de excavación. Ataca golpeando con su herramienta y embistiendo de frente.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Dig_Labour"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Dig_Labour",
+  "image": "/images/enemies/dig-labour.webp"
 }

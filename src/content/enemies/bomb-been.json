@@ -1,8 +1,14 @@
 {
   "id": "bomb-been",
   "name": "Bomb Been",
-  "games": [{ "collection": "games", "id": "x1" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    }
+  ],
   "classification": "aerial",
   "description": "Mechaniloid con forma de abeja que vuela en patrones ondulantes y deja caer pequeñas bombas de contacto sobre X al pasar por encima suyo.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Bomb_Been"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Bomb_Been",
+  "image": "/images/enemies/bomb-been.webp"
 }

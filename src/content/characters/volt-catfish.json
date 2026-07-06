@@ -3,15 +3,27 @@
   "name": "Volt Catfish",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x3" },
-  "games": [{ "collection": "games", "id": "x3" }],
+  "game": {
+    "collection": "games",
+    "id": "x3"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x3"
+    }
+  ],
   "stageName": "Represa hidroeléctrica",
   "elementType": "Electricidad/Agua",
-  "weakTo": { "collection": "characters", "id": "tunnel-rhino" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "tunnel-rhino"
+  },
   "weaponObtained": "Triad Thunder",
   "bio": [
     "Maverick con forma de bagre que electrifica el agua de la represa que custodia y ataca con descargas eléctricas en cadena.",
     "El Tornado Fang de Tunnel Rhino perfora su cuerpo con facilidad, siendo su debilidad más efectiva."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Volt_Catfish"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Volt_Catfish",
+  "portrait": "/images/characters/volt-catfish.webp"
 }

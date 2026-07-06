@@ -4,6 +4,7 @@ import GameSubpageLayout from '@/layouts/GameSubpageLayout.astro';
 import MechanicCard from '@/components/MechanicCard.astro';
 import CharacterCard from '@/components/CharacterCard.astro';
 import SectionHeading from '@/components/SectionHeading.astro';
+import { withBase } from '@/lib/url';
 
 export async function getStaticPaths() {
   const games = await getCollection('games');
@@ -26,9 +27,12 @@ const others = roster.filter((c) => c.data.role !== 'maverick');
   accentColor={game.data.accentColor}
   description={game.data.description}
 >
-  <article class="intro">
-    <Content />
-  </article>
+  <div class="hero-row">
+    {game.data.coverImage && <img class="cover" src={withBase(game.data.coverImage)} alt={`Portada de ${game.data.title}`} />}
+    <article class="intro">
+      <Content />
+    </article>
+  </div>
 
   {
     game.data.mechanics.length > 0 && (
@@ -71,13 +75,37 @@ const others = roster.filter((c) => c.data.role !== 'maverick');
 </GameSubpageLayout>
 
 <style>
+  .hero-row {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    align-items: flex-start;
+  }
+
+  .cover {
+    width: 200px;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+    object-fit: cover;
+  }
+
   .intro {
     color: var(--text-muted);
     max-width: 72ch;
-    margin-bottom: 2.5rem;
+    margin: 0;
   }
 
   section {
     margin-bottom: 2.5rem;
+  }
+
+  @media (max-width: 640px) {
+    .hero-row {
+      flex-direction: column;
+    }
+
+    .cover {
+      width: 140px;
+    }
   }
 </style>

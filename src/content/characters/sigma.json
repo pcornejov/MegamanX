@@ -2,8 +2,27 @@
   "id": "sigma",
   "name": "Sigma",
   "role": "other",
-  "aliases": ["Σ"],
-  "games": [{ "collection": "games", "id": "x1" }, { "collection": "games", "id": "x2" }, { "collection": "games", "id": "x3" }, { "collection": "games", "id": "x4" }],
+  "aliases": [
+    "Σ"
+  ],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    },
+    {
+      "collection": "games",
+      "id": "x2"
+    },
+    {
+      "collection": "games",
+      "id": "x3"
+    },
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "bio": [
     "Sigma es el Reploid de combate más avanzado de su generación y, antes de los eventos del juego, el comandante en jefe de los Maverick Hunters. Es, irónicamente, el primer gran Maverick de la saga.",
     "Fascinado y perturbado por el potencial de X, Sigma se rebela contra la humanidad y lidera un levantamiento de Reploids con el objetivo declarado de que los Reploids reemplacen a los humanos como especie dominante.",
@@ -13,5 +32,6 @@
     "Se convierte en el antagonista recurrente de toda la serie X, regresando en formas y cuerpos distintos en casi todos los juegos posteriores incluso después de ser derrotado."
   ],
   "notes": "Jefe final de Mega Man X, en dos fases: su forma Reploid y una segunda forma orgánica/monstruosa tras ser gravemente dañado. También jefe final de Mega Man X2 y Mega Man X3, siempre regresando en un nuevo cuerpo.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Sigma"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Sigma",
+  "portrait": "/images/characters/sigma.webp"
 }

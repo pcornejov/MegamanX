@@ -1,8 +1,14 @@
 {
   "id": "hover-gunner",
   "name": "Hover Gunner",
-  "games": [{ "collection": "games", "id": "x4" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "classification": "aerial",
   "description": "Unidad voladora armada con un cañón de bala que patrulla el aire y dispara a distancia antes de intentar embestir por contacto.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Hover_Gunner"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Hover_Gunner",
+  "image": "/images/enemies/hover-gunner.webp"
 }

@@ -3,16 +3,28 @@
   "name": "Magma Dragoon",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x4" },
-  "games": [{ "collection": "games", "id": "x4" }],
+  "game": {
+    "collection": "games",
+    "id": "x4"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "stageName": "Volcán/base de investigación volcánica",
   "elementType": "Fuego/Combate cuerpo a cuerpo",
-  "weakTo": { "collection": "characters", "id": "storm-owl" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "storm-owl"
+  },
   "weaponObtained": "Rising Fire",
   "bio": [
     "Ex Maverick Hunter y peleador cuerpo a cuerpo excepcional, Magma Dragoon es el responsable secreto de provocar la caída del Sky Lagoon al inicio del juego, solo para tener la oportunidad de enfrentarse a X y Zero en combate.",
     "Aunque parece actuar por cuenta propia, se revela que en realidad fue manipulado por Sigma para desatar el conflicto entre los Maverick Hunters y Repliforce.",
     "El Double Cyclone de Storm Owl apaga las llamas que lo envuelven y lo derriba con facilidad, cerrando el ciclo de debilidades del juego: su propia Rising Fire es, a su vez, la debilidad de Frost Walrus, el primer Maverick de la lista."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Magma_Dragoon"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Magma_Dragoon",
+  "portrait": "/images/characters/magma-dragoon.webp"
 }

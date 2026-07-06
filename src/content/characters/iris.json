@@ -3,12 +3,18 @@
   "name": "Iris",
   "role": "reploid",
   "aliases": [],
-  "games": [{ "collection": "games", "id": "x4" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "bio": [
     "Iris es una Reploid de comunicaciones de Repliforce y hermana de Colonel y General. Zero la rescata durante la caída del Sky Lagoon, y entre ambos nace un vínculo que se profundiza a lo largo del juego.",
     "Cuando la guerra entre Repliforce y los Maverick Hunters estalla, Iris queda atrapada entre la lealtad a su familia y su afecto por Zero, un conflicto que termina en una de las escenas más recordadas de toda la saga."
   ],
   "affiliation": "Repliforce",
   "rank": "Oficial de comunicaciones de Repliforce",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Iris"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Iris",
+  "portrait": "/images/characters/iris.webp"
 }

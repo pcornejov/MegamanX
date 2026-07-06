@@ -10,14 +10,22 @@ interface Props {
   platforms: string[];
   description: string;
   accentColor: string;
+  coverImage?: string;
   comingSoon?: boolean;
 }
 
-const { id, title, subtitle, releaseYear, platforms, description, accentColor, comingSoon = false } =
+const { id, title, subtitle, releaseYear, platforms, description, accentColor, coverImage, comingSoon = false } =
   Astro.props;
 ---
 
 <article class="game-card panel" style={`--card-accent: ${accentColor}`}>
+  {
+    coverImage && (
+      <div class="cover">
+        <img src={withBase(coverImage)} alt="" loading="lazy" />
+      </div>
+    )
+  }
   <div class="card-head">
     <span class="year">{releaseYear}</span>
     {comingSoon && <Badge tone="muted">Próximamente</Badge>}
@@ -53,6 +61,20 @@ const { id, title, subtitle, releaseYear, platforms, description, accentColor, c
   .game-card:hover {
     border-color: var(--card-accent);
     box-shadow: 0 0 20px color-mix(in srgb, var(--card-accent) 30%, transparent);
+  }
+
+  .cover {
+    aspect-ratio: 3 / 4;
+    margin: -1.25rem -1.25rem 0.75rem;
+    overflow: hidden;
+    background: var(--bg-raised);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .card-head {

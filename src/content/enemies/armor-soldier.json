@@ -1,8 +1,14 @@
 {
   "id": "armor-soldier",
   "name": "Armor Soldier",
-  "games": [{ "collection": "games", "id": "x1" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x1"
+    }
+  ],
   "classification": "ground",
   "description": "Reploid enemigo raso que patrulla a pie y puede subirse a un Ride Armor cercano para volverse mucho más resistente y peligroso si X no lo elimina rápido.",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Armor_Soldier"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Armor_Soldier",
+  "image": "/images/enemies/armor-soldier.webp"
 }

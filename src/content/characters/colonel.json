@@ -3,12 +3,18 @@
   "name": "Colonel",
   "role": "reploid",
   "aliases": [],
-  "games": [{ "collection": "games", "id": "x4" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "bio": [
     "Colonel es el segundo al mando de Repliforce y hermano de Iris. Comparte con X un fuerte código de honor, lo que los convierte en rivales que se respetan incluso en bandos opuestos del conflicto.",
     "Cuando estalla la guerra entre Repliforce y los Maverick Hunters, Colonel se convierte en el principal oponente de X, resultando en varios de los duelos más memorables del juego."
   ],
   "affiliation": "Repliforce",
   "rank": "Segundo al mando de Repliforce",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Colonel"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Colonel",
+  "portrait": "/images/characters/colonel.webp"
 }

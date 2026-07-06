@@ -3,15 +3,27 @@
   "name": "Tunnel Rhino",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x3" },
-  "games": [{ "collection": "games", "id": "x3" }],
+  "game": {
+    "collection": "games",
+    "id": "x3"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x3"
+    }
+  ],
   "stageName": "Obra de excavación subterránea",
   "elementType": "Tierra/Excavación",
-  "weakTo": { "collection": "characters", "id": "toxic-seahorse" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "toxic-seahorse"
+  },
   "weaponObtained": "Tornado Fang",
   "bio": [
     "Maverick con forma de rinoceronte que excava túneles y embiste con su cuerno perforador, provocando derrumbes en su propio escenario.",
     "El Acid Burst de Toxic Seahorse corroe su blindaje y lo hace mucho más vulnerable."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Tunnel_Rhino"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Tunnel_Rhino",
+  "portrait": "/images/characters/tunnel-rhino.webp"
 }

@@ -3,15 +3,27 @@
   "name": "Storm Owl",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x4" },
-  "games": [{ "collection": "games", "id": "x4" }],
+  "game": {
+    "collection": "games",
+    "id": "x4"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "stageName": "Portaaviones/base aérea",
   "elementType": "Viento/Aire",
-  "weakTo": { "collection": "characters", "id": "cyber-peacock" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "cyber-peacock"
+  },
   "weaponObtained": "Double Cyclone",
   "bio": [
     "Maverick con forma de búho que domina una base aérea, generando corrientes de viento y ciclones para desestabilizar a su oponente en pleno vuelo.",
     "El Aiming Laser de Cyber Peacock lo sigue automáticamente incluso mientras vuela, siendo su debilidad más confiable."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Storm_Owl"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Storm_Owl",
+  "portrait": "/images/characters/storm-owl.webp"
 }

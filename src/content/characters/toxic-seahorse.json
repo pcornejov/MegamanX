@@ -3,15 +3,27 @@
   "name": "Toxic Seahorse",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x3" },
-  "games": [{ "collection": "games", "id": "x3" }],
+  "game": {
+    "collection": "games",
+    "id": "x3"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x3"
+    }
+  ],
   "stageName": "Planta de residuos tóxicos",
   "elementType": "Veneno/Agua",
-  "weakTo": { "collection": "characters", "id": "blizzard-buffalo" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "blizzard-buffalo"
+  },
   "weaponObtained": "Acid Burst",
   "bio": [
     "Maverick con forma de caballito de mar que contamina el agua de su escenario con líquidos tóxicos y ataca lanzando proyectiles corrosivos.",
     "El Frost Shield de Blizzard Buffalo congela el líquido tóxico y lo golpea con eficacia."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Toxic_Seahorse"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Toxic_Seahorse",
+  "portrait": "/images/characters/toxic-seahorse.webp"
 }

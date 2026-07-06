@@ -3,15 +3,27 @@
   "name": "Morph Moth",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x2" },
-  "games": [{ "collection": "games", "id": "x2" }],
+  "game": {
+    "collection": "games",
+    "id": "x2"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "stageName": "Robot Junkyard",
   "elementType": "Insecto/Transformación",
-  "weakTo": { "collection": "characters", "id": "flame-stag" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "flame-stag"
+  },
   "weaponObtained": "Silk Shot",
   "bio": [
     "Maverick con forma de polilla que puede transformarse en una esfera de chatarra compactada para embestir y esconderse dentro de su propio capullo defensivo.",
     "El Speed Burner de Flame Stag quema su capullo y su forma de polilla por igual, siendo su debilidad más efectiva."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Morph_Moth"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Morph_Moth",
+  "portrait": "/images/characters/morph-moth.webp"
 }

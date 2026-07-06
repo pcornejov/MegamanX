@@ -3,15 +3,27 @@
   "name": "Magna Centipede",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x2" },
-  "games": [{ "collection": "games", "id": "x2" }],
+  "game": {
+    "collection": "games",
+    "id": "x2"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "stageName": "Central Computer",
   "elementType": "Magnetismo",
-  "weakTo": { "collection": "characters", "id": "morph-moth" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "morph-moth"
+  },
   "weaponObtained": "Magnet Mine",
   "bio": [
     "Maverick con forma de ciempiés que manipula campos magnéticos para atraer o repeler a X y bloquear sus disparos con un escudo invisible.",
     "El Silk Shot de Morph Moth logra atravesar su campo magnético y dañarlo directamente."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Magna_Centipede"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Magna_Centipede",
+  "portrait": "/images/characters/magna-centipede.webp"
 }

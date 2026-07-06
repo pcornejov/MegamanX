@@ -3,15 +3,27 @@
   "name": "Bubble Crab",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x2" },
-  "games": [{ "collection": "games", "id": "x2" }],
+  "game": {
+    "collection": "games",
+    "id": "x2"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "stageName": "Deep-Sea Base",
   "elementType": "Agua/Burbujas",
-  "weakTo": { "collection": "characters", "id": "wheel-gator" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "wheel-gator"
+  },
   "weaponObtained": "Bubble Splash",
   "bio": [
     "Maverick con forma de cangrejo que opera en una planta de reciclaje inundada, rodeado de burbujas que puede lanzar como proyectiles y usar de escudo.",
     "El Spin Wheel de Wheel Gator perfora sus burbujas y le hace un daño considerable."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Bubble_Crab"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Bubble_Crab",
+  "portrait": "/images/characters/bubble-crab.webp"
 }

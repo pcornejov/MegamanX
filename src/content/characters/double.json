@@ -3,12 +3,18 @@
   "name": "Double",
   "role": "reploid",
   "aliases": [],
-  "games": [{ "collection": "games", "id": "x4" }],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x4"
+    }
+  ],
   "bio": [
     "Double es un Reploid recluta de los Maverick Hunters que se integra al escuadrón de X poco antes del inicio del conflicto con Repliforce.",
     "Se revela que en realidad es un agente doble infiltrado por Sigma, enviado para espiar a los Hunters desde adentro y sembrar la desconfianza que termina desatando la guerra con Repliforce."
   ],
   "affiliation": "Maverick Hunters (infiltrado por Sigma)",
   "rank": "Agente doble",
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Double"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Double",
+  "portrait": "/images/characters/double.webp"
 }

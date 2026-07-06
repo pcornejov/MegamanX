@@ -3,15 +3,27 @@
   "name": "Overdrive Ostrich",
   "role": "maverick",
   "aliases": [],
-  "game": { "collection": "games", "id": "x2" },
-  "games": [{ "collection": "games", "id": "x2" }],
+  "game": {
+    "collection": "games",
+    "id": "x2"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x2"
+    }
+  ],
   "stageName": "Desert Base",
   "elementType": "Velocidad",
-  "weakTo": { "collection": "characters", "id": "crystal-snail" },
+  "weakTo": {
+    "collection": "characters",
+    "id": "crystal-snail"
+  },
   "weaponObtained": "Sonic Slicer",
   "bio": [
     "Maverick con forma de avestruz que corre a velocidades extremas sobre una autopista, casi imposible de alcanzar a puro reflejo.",
     "El Crystal Hunter de Crystal Snail lo congela momentáneamente, neutralizando su ventaja de velocidad y dejándolo abierto a un contraataque."
   ],
-  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Overdrive_Ostrich"
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Overdrive_Ostrich",
+  "portrait": "/images/characters/overdrive-ostrich.webp"
 }

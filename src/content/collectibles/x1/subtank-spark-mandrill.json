@@ -1,0 +1,10 @@
+{
+  "id": "subtank-spark-mandrill",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "sub-tank",
+  "name": "Sub Tank #3",
+  "stageName": "Central eléctrica de Sigma (Spark Mandrill)",
+  "locationDescription": "En una plataforma secundaria de la central eléctrica, en una ruta que requiere esquivar varios enemigos eléctricos en cadena.",
+  "videoId": "qrSYseDWnzA",
+  "order": 3
+}

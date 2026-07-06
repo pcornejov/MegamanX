@@ -1,0 +1,36 @@
+:root {
+  /* base surfaces */
+  --bg: #0a0f1e;
+  --bg-raised: #121a2e;
+  --bg-panel: #0e1526;
+  --border: #263252;
+  --border-soft: #1a2338;
+
+  /* accents */
+  --accent: #2e6ff2;
+  --accent-glow: #4c8cff;
+  --danger: #e8332b;
+  --energy: #35e6e0;
+  --energy-alt: #b6ff3b;
+
+  /* text */
+  --text: #e4e8f1;
+  --text-muted: #8b93a7;
+  --text-dim: #5b647c;
+
+  /* type */
+  --font-display: 'Orbitron', 'Rajdhani', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  /* geometry */
+  --radius: 2px;
+  --panel-clip: polygon(0 8px, 8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%);
+  --panel-clip-sm: polygon(0 6px, 6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%);
+
+  /* motion */
+  --transition-fast: 120ms ease;
+  --transition-glow: 220ms ease;
+
+  color-scheme: dark;
+}

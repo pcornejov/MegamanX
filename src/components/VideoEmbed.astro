@@ -1,0 +1,81 @@
+---
+interface Props {
+  videoId: string;
+  title: string;
+  start?: number;
+}
+
+const { videoId, title, start } = Astro.props;
+const thumb = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+const embedSrc = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1${start ? `&start=${start}` : ''}`;
+---
+
+<div class="video-embed" data-video-embed data-src={embedSrc} data-title={title}>
+  <button type="button" class="facade" aria-label={`Reproducir video: ${title}`}>
+    <img src={thumb} alt="" loading="lazy" />
+    <span class="play">▶</span>
+  </button>
+</div>
+
+<style>
+  .video-embed {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000;
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .facade {
+    all: unset;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .facade img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .play {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    color: #fff;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.55) 100%);
+  }
+
+  .video-embed :global(iframe) {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-video-embed]').forEach((wrapper) => {
+    const button = wrapper.querySelector('.facade');
+    button?.addEventListener(
+      'click',
+      () => {
+        const src = wrapper.dataset.src;
+        const title = wrapper.dataset.title ?? 'Video de YouTube';
+        const iframe = document.createElement('iframe');
+        iframe.src = src ?? '';
+        iframe.title = title;
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allowFullscreen = true;
+        wrapper.innerHTML = '';
+        wrapper.appendChild(iframe);
+      },
+      { once: true },
+    );
+  });
+</script>

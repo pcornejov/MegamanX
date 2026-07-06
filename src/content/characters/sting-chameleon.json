@@ -1,0 +1,17 @@
+{
+  "id": "sting-chameleon",
+  "name": "Sting Chameleon",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x1" },
+  "games": [{ "collection": "games", "id": "x1" }],
+  "stageName": "Bosque/jungla",
+  "elementType": "Camuflaje/Naturaleza",
+  "weakTo": { "collection": "characters", "id": "boomer-kuwanger" },
+  "weaponObtained": "Chameleon Sting",
+  "bio": [
+    "Maverick que habita una zona boscosa y puede volverse invisible para moverse entre paredes y techos sin ser detectado, atacando con la lengua y con proyectiles en forma de púa.",
+    "El Boomerang Cutter de Boomer Kuwanger es especialmente eficaz para derribarlo mientras trepa camuflado."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Sting_Chameleon"
+}

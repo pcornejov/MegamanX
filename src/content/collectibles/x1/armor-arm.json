@@ -1,0 +1,10 @@
+{
+  "id": "armor-arm",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "armor-part",
+  "name": "Brazo de Dr. Light (X-Buster nivel 4)",
+  "stageName": "Refinería de petróleo (Flame Mammoth)",
+  "locationDescription": "Cerca del inicio de la fase, en la segunda cinta transportadora de la línea de montaje: hay que mirar hacia arriba para ver bloques rompibles y llegar con un dash-jump desde el borde derecho. Requiere ya tener botas y casco. Desbloquea el disparo cargado más fuerte del juego.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 4
+}

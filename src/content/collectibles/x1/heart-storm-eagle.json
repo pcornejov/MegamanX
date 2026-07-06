@@ -1,0 +1,10 @@
+{
+  "id": "heart-storm-eagle",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Storm Eagle",
+  "stageName": "Portaaviones aéreo",
+  "locationDescription": "En una plataforma elevada del portaaviones, alcanzable con un dash-jump; el casco de Dr. Light (obtenido en esta misma fase) facilita el camino al romper bloques de por medio.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 2
+}

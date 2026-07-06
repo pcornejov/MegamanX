@@ -1,0 +1,55 @@
+---
+import BossOrderStep from './BossOrderStep.astro';
+
+interface Step {
+  order: number;
+  characterId: string;
+  characterName: string;
+  portrait?: string;
+  stageName?: string;
+  weaponObtained?: string;
+  reasoning: string;
+  videoId?: string;
+  videoStart?: number;
+}
+
+interface Props {
+  steps: Step[];
+}
+
+const { steps } = Astro.props;
+const sorted = [...steps].sort((a, b) => a.order - b.order);
+---
+
+<ol class="timeline">
+  {
+    sorted.map((step, i) => (
+      <>
+        <BossOrderStep {...step} />
+        {i < sorted.length - 1 && (
+          <li class="connector" aria-hidden="true">
+            ↓
+          </li>
+        )}
+      </>
+    ))
+  }
+</ol>
+
+<style>
+  .timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 680px;
+  }
+
+  .connector {
+    text-align: center;
+    color: var(--accent);
+    font-size: 1.2rem;
+  }
+</style>

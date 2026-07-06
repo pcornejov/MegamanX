@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import GameSubpageLayout from '@/layouts/GameSubpageLayout.astro';
+import MechanicCard from '@/components/MechanicCard.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games');
+  return games.map((game) => ({ params: { game: game.id }, props: { game } }));
+}
+
+const { game } = Astro.props;
+---
+
+<GameSubpageLayout gameId={game.id} gameTitle={game.data.title} pageTitle="Mecánicas" accentColor={game.data.accentColor}>
+  <SectionHeading eyebrow="Cómo se juega">Mecánicas de {game.data.title}</SectionHeading>
+  {
+    game.data.mechanics.length > 0 ? (
+      <div class="grid grid-cards">
+        {game.data.mechanics.map((m) => (
+          <MechanicCard name={m.name} description={m.description} newInThisGame={m.newInThisGame} />
+        ))}
+      </div>
+    ) : (
+      <p class="empty">Todavía no cargamos las mecánicas de este juego. Vuelve pronto.</p>
+    )
+  }
+</GameSubpageLayout>
+
+<style>
+  .empty {
+    color: var(--text-dim);
+  }
+</style>

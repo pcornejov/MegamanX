@@ -1,0 +1,28 @@
+{
+  "name": "megamanx-guide",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch:games": "tsx scripts/fetch-rawg-games.ts",
+    "fetch:characters": "tsx scripts/fetch-wiki-characters.ts",
+    "fetch:enemies": "tsx scripts/fetch-wiki-enemies.ts",
+    "fetch:images": "tsx scripts/download-images.ts"
+  },
+  "dependencies": {
+    "astro": "^7.0.6",
+    "@astrojs/sitemap": "^3.7.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "gray-matter": "^4.0.3"
+  }
+}

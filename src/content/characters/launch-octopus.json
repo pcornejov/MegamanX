@@ -1,0 +1,17 @@
+{
+  "id": "launch-octopus",
+  "name": "Launch Octopus",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x1" },
+  "games": [{ "collection": "games", "id": "x1" }],
+  "stageName": "Base naval",
+  "elementType": "Agua",
+  "weakTo": { "collection": "characters", "id": "armored-armadillo" },
+  "weaponObtained": "Homing Torpedo",
+  "bio": [
+    "Maverick acuático que defiende una base naval inundada. Ataca lanzando torpedos teledirigidos y embistiendo bajo el agua, donde el movimiento de X se vuelve más lento y pesado.",
+    "El Rolling Shield de Armored Armadillo lo golpea varias veces por disparo, ideal para su patrón de esquivas en el agua."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Launch_Octopus"
+}

@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import GameCard from '@/components/GameCard.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+
+const allGames = await getCollection('games');
+const mainline = allGames.filter((g) => g.data.category === 'mainline').sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout title="Juegos" description="Los ocho juegos principales de Mega Man X.">
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Juegos' }]} />
+    <SectionHeading eyebrow="X1 – X8">Serie principal</SectionHeading>
+    <div class="grid grid-cards">
+      {
+        mainline.map((game) => (
+          <GameCard
+            id={game.id}
+            title={game.data.title}
+            subtitle={game.data.subtitle}
+            releaseYear={game.data.releaseYear}
+            platforms={game.data.platforms}
+            description={game.data.description}
+            accentColor={game.data.accentColor}
+            comingSoon={game.data.comingSoon}
+          />
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .container {
+    padding-block: 2rem 4rem;
+  }
+</style>

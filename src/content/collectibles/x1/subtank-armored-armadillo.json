@@ -1,0 +1,10 @@
+{
+  "id": "subtank-armored-armadillo",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "sub-tank",
+  "name": "Sub Tank #4",
+  "stageName": "Fábrica de armamento (Armored Armadillo)",
+  "locationDescription": "En la zona exterior de la fábrica, cerca de la puerta de la sala del jefe; también es el camino hacia la cápsula secreta del Hadouken si ya tenés el resto del 100%.",
+  "videoId": "qrSYseDWnzA",
+  "order": 4
+}

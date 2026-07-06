@@ -1,0 +1,8 @@
+{
+  "id": "weakness-cycle",
+  "game": { "collection": "games", "id": "x1" },
+  "category": "design",
+  "title": "El ciclo de debilidades cierra un círculo perfecto de 8 jefes",
+  "body": "A diferencia de otros juegos de Mega Man, donde el orden de jefes suele formar varias cadenas cortas, en Mega Man X las debilidades de los ocho Mavericks forman un único ciclo cerrado de ocho eslabones: la Fire Wave de Flame Mammoth vence a Chill Penguin, el Shotgun Ice de este vence a Spark Mandrill, y así sucesivamente hasta volver a Flame Mammoth, que a su vez es débil a Storm Tornado.",
+  "sourceUrl": "https://megaman.fandom.com/wiki/List_of_Mega_Man_X_enemies"
+}

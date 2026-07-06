@@ -1,0 +1,10 @@
+{
+  "id": "armor-helmet",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "armor-part",
+  "name": "Casco de Dr. Light",
+  "stageName": "Portaaviones aéreo (Storm Eagle)",
+  "locationDescription": "En una torre estrecha de plataformas verticales del portaaviones: hay que subir con cuidado y no saltar a la plataforma más alta directamente, sino desviarse hacia la cápsula. Rompe bloques con la cabeza y reduce el daño por caída.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 2
+}

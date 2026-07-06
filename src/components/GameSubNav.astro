@@ -1,0 +1,75 @@
+---
+import { withBase } from '@/lib/url';
+
+interface Props {
+  gameId: string;
+}
+
+const { gameId } = Astro.props;
+const base = `/games/${gameId}`;
+const currentPath = Astro.url.pathname;
+
+const tabs = [
+  { label: 'Resumen', href: base },
+  { label: 'Mecánicas', href: `${base}/mechanics` },
+  { label: 'Orden de jefes', href: `${base}/boss-order` },
+  { label: 'Coleccionables', href: `${base}/collectibles` },
+  { label: 'Curiosidades', href: `${base}/trivia` },
+];
+---
+
+<nav class="sub-nav" aria-label="Secciones del juego">
+  <ul>
+    {
+      tabs.map((tab) => {
+        const href = withBase(tab.href);
+        const active = currentPath === href || currentPath === `${href}/`;
+        return (
+          <li>
+            <a href={href} aria-current={active ? 'page' : undefined}>
+              {tab.label}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</nav>
+
+<style>
+  .sub-nav {
+    overflow-x: auto;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2rem;
+  }
+
+  .sub-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    min-width: max-content;
+  }
+
+  .sub-nav a {
+    display: inline-block;
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding-block: 0.65rem;
+    border-bottom: 2px solid transparent;
+  }
+
+  .sub-nav a:hover {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .sub-nav a[aria-current='page'] {
+    color: var(--accent-glow);
+    border-bottom-color: var(--accent-glow);
+  }
+</style>

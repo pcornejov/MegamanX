@@ -1,0 +1,9 @@
+{
+  "id": "rangda-bangda",
+  "name": "Rangda Bangda",
+  "games": [{ "collection": "games", "id": "x1" }],
+  "classification": "boss-minion",
+  "description": "Un rostro mecánico gigante incrustado en la pared de la segunda fase de la fortaleza de Sigma, con ojos móviles que atacan por turnos y una boca que funciona como pozo de púas. Sus paredes laterales se cierran para intentar empujar a X hacia las púas.",
+  "notes": "Débil al Chameleon Sting (obtenido de Sting Chameleon); el Homing Torpedo también es una buena opción.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Rangda_Bangda"
+}

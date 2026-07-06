@@ -1,0 +1,8 @@
+{
+  "id": "amenhopper",
+  "name": "Amenhopper",
+  "games": [{ "collection": "games", "id": "x1" }],
+  "classification": "ground",
+  "description": "Pequeño Mechaniloid que avanza a saltos y suelta una bomba de contacto al aterrizar cerca de X. Suele aparecer en grupos, obligando a esquivar varios saltos seguidos.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Amenhopper"
+}

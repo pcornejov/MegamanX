@@ -1,0 +1,10 @@
+{
+  "id": "heart-boomer-kuwanger",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Boomer Kuwanger",
+  "stageName": "Torre de comunicaciones",
+  "locationDescription": "En una plataforma alta de la torre, en una sección vertical donde conviene usar el wall jump entre paredes enfrentadas para ganar altura.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 5
+}

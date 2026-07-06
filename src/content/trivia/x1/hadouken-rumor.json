@@ -1,0 +1,8 @@
+{
+  "id": "hadouken-rumor",
+  "game": { "collection": "games", "id": "x1" },
+  "category": "easter-egg",
+  "title": "El Hadouken fue un mito de patio de escuela antes de confirmarse",
+  "body": "Durante años, la posibilidad de conseguir el Hadouken de Street Fighter en Mega Man X circuló como un rumor sin confirmar entre jugadores, del estilo de otros mitos clásicos de la era de 16 bits. Con el tiempo se verificó que era real: conseguir el 100% del juego (8 Heart Tanks, 4 Sub Tanks y las 4 piezas de armadura) y llegar con la vida al máximo a la primera cápsula de la fortaleza de Sigma hace que Dr. Light le enseñe el movimiento a X.",
+  "sourceUrl": "https://www.youtube.com/watch?v=ALhhVK0kNOg"
+}

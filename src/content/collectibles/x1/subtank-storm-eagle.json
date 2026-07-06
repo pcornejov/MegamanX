@@ -1,0 +1,10 @@
+{
+  "id": "subtank-storm-eagle",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "sub-tank",
+  "name": "Sub Tank #1",
+  "stageName": "Portaaviones aéreo (Storm Eagle)",
+  "locationDescription": "En una plataforma del portaaviones alcanzable con un salto preciso sobre el vacío; es uno de los Sub Tanks más tempranos que se pueden conseguir.",
+  "videoId": "qrSYseDWnzA",
+  "order": 1
+}

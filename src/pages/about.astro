@@ -1,0 +1,55 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+---
+
+<BaseLayout title="Créditos" description="Fuentes de datos, atribución y disclaimer del proyecto.">
+  <div class="container page">
+    <Breadcrumbs items={[{ label: 'Créditos' }]} />
+    <SectionHeading eyebrow="Transparencia">Créditos y fuentes</SectionHeading>
+
+    <p>
+      Este es un proyecto de fans, no oficial y sin fines de lucro, hecho por y para la comunidad de
+      Mega Man X. No está afiliado ni respaldado por Capcom Co., Ltd. Mega Man X, Mega Man, y todos los
+      personajes, nombres y logotipos relacionados son marcas registradas de Capcom.
+    </p>
+
+    <h2>Datos y metadata de los juegos</h2>
+    <p>
+      La información de lanzamiento, plataformas y portadas de cada título proviene de la API pública de
+      <a href="https://rawg.io" target="_blank" rel="noopener noreferrer">RAWG.io</a>.
+    </p>
+
+    <h2>Personajes y enemigos</h2>
+    <p>
+      Los retratos y textos base de personajes, Mavericks y enemigos están adaptados a partir de la API
+      pública de <a href="https://megaman.fandom.com" target="_blank" rel="noopener noreferrer">Mega Man Knowledge Base (MMKB)</a>,
+      un wiki de Fandom bajo licencia CC BY-SA. Cada ficha enlaza a su página fuente correspondiente.
+    </p>
+
+    <h2>Videos</h2>
+    <p>
+      Los videos embebidos pertenecen a sus canales de YouTube originales y se muestran mediante el
+      reproductor con privacidad mejorada de YouTube (youtube-nocookie.com). No se aloja ningún video en
+      este sitio.
+    </p>
+
+    <h2>Código</h2>
+    <p>Sitio construido con <a href="https://astro.build" target="_blank" rel="noopener noreferrer">Astro</a> y desplegado en GitHub Pages.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-block: 2rem 4rem;
+    max-width: 70ch;
+    color: var(--text-muted);
+  }
+
+  h2 {
+    color: var(--text);
+    font-size: 1.1rem;
+    margin-top: 2rem;
+  }
+</style>

@@ -1,0 +1,108 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { withBase } from '@/lib/url';
+
+const games = (await getCollection('games'))
+  .filter((g) => g.data.category === 'mainline')
+  .sort((a, b) => a.data.order - b.data.order);
+
+const byMechanic = new Map<string, { name: string; entries: { gameTitle: string; gameId: string; description: string; isNew?: boolean }[] }>();
+
+for (const game of games) {
+  for (const mechanic of game.data.mechanics) {
+    if (!byMechanic.has(mechanic.id)) {
+      byMechanic.set(mechanic.id, { name: mechanic.name, entries: [] });
+    }
+    byMechanic.get(mechanic.id)!.entries.push({
+      gameTitle: game.data.title,
+      gameId: game.id,
+      description: mechanic.description,
+      isNew: mechanic.newInThisGame,
+    });
+  }
+}
+---
+
+<BaseLayout title="Mecánicas" description="Evolución de las mecánicas de juego a través de la saga Mega Man X.">
+  <div class="container page">
+    <Breadcrumbs items={[{ label: 'Mecánicas' }]} />
+    <SectionHeading eyebrow="Cross-game">Evolución de mecánicas</SectionHeading>
+    <p class="intro">Cómo cambian el dash, el wall jump, las armaduras y más a través de la serie principal.</p>
+
+    {
+      byMechanic.size > 0 ? (
+        <div class="mechanics-list">
+          {[...byMechanic.entries()].map(([id, group]) => (
+            <section class="panel panel-sm">
+              <h2>{group.name}</h2>
+              <ol>
+                {group.entries.map((entry) => (
+                  <li>
+                    <a href={withBase(`/games/${entry.gameId}`)}>{entry.gameTitle}</a>
+                    {entry.isNew && <span class="new-tag">nuevo</span>}
+                    <p>{entry.description}</p>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ))}
+        </div>
+      ) : (
+        <p class="empty">Todavía no cargamos mecánicas. Vuelve pronto.</p>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-block: 2rem 4rem;
+  }
+
+  .intro {
+    color: var(--text-muted);
+    max-width: 60ch;
+  }
+
+  .mechanics-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  ol li p {
+    margin: 0.2rem 0 0;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+  }
+
+  .new-tag {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--energy);
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .empty {
+    color: var(--text-dim);
+  }
+</style>

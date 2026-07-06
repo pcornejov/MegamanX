@@ -1,0 +1,10 @@
+{
+  "id": "heart-sting-chameleon",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Sting Chameleon",
+  "stageName": "Bosque/jungla",
+  "locationDescription": "En una zona elevada de la jungla, cerca de donde también se esconde la pieza de armadura del cuerpo — están en la misma región de la fase, separadas por una sección de plataformas.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 6
+}

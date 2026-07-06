@@ -1,0 +1,139 @@
+---
+import { withBase } from '@/lib/url';
+
+const navItems = [
+  { label: 'Inicio', href: '/' },
+  { label: 'Juegos', href: '/games' },
+  { label: 'Personajes', href: '/characters' },
+  { label: 'Enemigos', href: '/enemies' },
+  { label: 'Mecánicas', href: '/mechanics' },
+  { label: 'Otros juegos', href: '/spinoffs' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href={withBase('/')}>
+      <span class="brand-x">X</span>
+      <span class="brand-text">MEGA MAN X<br /><small>GUÍA DEL CAZADOR</small></span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <ul>
+        {
+          navItems.map((item) => {
+            const href = withBase(item.href);
+            const active = currentPath === href || currentPath === `${href}/`;
+            return (
+              <li>
+                <a href={href} aria-current={active ? 'page' : undefined}>
+                  {item.label}
+                </a>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: rgba(10, 15, 30, 0.92);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block: 0.75rem;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--text);
+  }
+
+  .brand:hover {
+    text-decoration: none;
+  }
+
+  .brand-x {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--accent-glow);
+    border: 2px solid var(--accent);
+    width: 2.2rem;
+    height: 2.2rem;
+    display: grid;
+    place-items: center;
+    clip-path: var(--panel-clip-sm);
+    box-shadow: 0 0 14px rgba(76, 140, 255, 0.35);
+  }
+
+  .brand-text {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+  }
+
+  .brand-text small {
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    letter-spacing: 0.12em;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav a:hover,
+  nav a:focus-visible {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom-color: var(--accent);
+  }
+
+  nav a[aria-current='page'] {
+    color: var(--accent-glow);
+    border-bottom-color: var(--accent-glow);
+  }
+
+  @media (max-width: 720px) {
+    .bar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    nav ul {
+      gap: 0.85rem;
+    }
+  }
+</style>

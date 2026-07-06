@@ -1,0 +1,17 @@
+{
+  "id": "flame-mammoth",
+  "name": "Flame Mammoth",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x1" },
+  "games": [{ "collection": "games", "id": "x1" }],
+  "stageName": "Refinería de petróleo",
+  "elementType": "Fuego",
+  "weakTo": { "collection": "characters", "id": "storm-eagle" },
+  "weaponObtained": "Fire Wave",
+  "bio": [
+    "El más corpulento de los ocho Mavericks, custodia una refinería de petróleo. Ataca pisando fuerte para generar ondas expansivas y lanzando bombas incendiarias desde su trompa.",
+    "El Storm Tornado de Storm Eagle lo derriba con rapidez, cerrando el ciclo de debilidades del juego: su propia Fire Wave es, a su vez, la debilidad de Chill Penguin, el primer Maverick."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Flame_Mammoth"
+}

@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import GameSubpageLayout from '@/layouts/GameSubpageLayout.astro';
+import TriviaItem from '@/components/TriviaItem.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games');
+  return games.map((game) => ({ params: { game: game.id }, props: { game } }));
+}
+
+const { game } = Astro.props;
+
+const allTrivia = await getCollection('trivia');
+const items = allTrivia.filter((t) => t.data.game?.id === game.id);
+---
+
+<GameSubpageLayout gameId={game.id} gameTitle={game.data.title} pageTitle="Curiosidades" accentColor={game.data.accentColor}>
+  <SectionHeading eyebrow="Detrás de escena">Curiosidades de {game.data.title}</SectionHeading>
+  {
+    items.length > 0 ? (
+      <div class="list">
+        {items.map((t) => (
+          <TriviaItem title={t.data.title} body={t.data.body} category={t.data.category} sourceUrl={t.data.sourceUrl} />
+        ))}
+      </div>
+    ) : (
+      <p class="empty">Todavía no cargamos curiosidades de este juego. Vuelve pronto.</p>
+    )
+  }
+</GameSubpageLayout>
+
+<style>
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 720px;
+  }
+
+  .empty {
+    color: var(--text-dim);
+  }
+</style>

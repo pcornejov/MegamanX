@@ -1,0 +1,10 @@
+{
+  "id": "heart-spark-mandrill",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Spark Mandrill",
+  "stageName": "Central eléctrica de Sigma",
+  "locationDescription": "En una sala secundaria de la central eléctrica, detrás de una sección con enemigos eléctricos que conviene despejar antes de saltar hacia la plataforma donde está el tanque.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 7
+}

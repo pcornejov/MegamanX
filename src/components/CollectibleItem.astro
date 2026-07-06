@@ -1,0 +1,63 @@
+---
+import VideoEmbed from './VideoEmbed.astro';
+import Badge from './Badge.astro';
+
+interface Props {
+  name: string;
+  type: 'heart-tank' | 'sub-tank' | 'armor-part' | 'other-upgrade';
+  stageName?: string;
+  locationDescription: string;
+  videoId?: string;
+  videoStart?: number;
+}
+
+const typeLabels: Record<Props['type'], string> = {
+  'heart-tank': 'Heart Tank',
+  'sub-tank': 'Sub Tank',
+  'armor-part': 'Pieza de armadura',
+  'other-upgrade': 'Mejora',
+};
+
+const { name, type, stageName, locationDescription, videoId, videoStart } = Astro.props;
+---
+
+<div class="item panel-sm panel">
+  <div class="item-head">
+    <Badge tone="energy">{typeLabels[type]}</Badge>
+    {stageName && <span class="stage">{stageName}</span>}
+  </div>
+  <h3>{name}</h3>
+  <p>{locationDescription}</p>
+  {videoId && <VideoEmbed videoId={videoId} start={videoStart} title={`Ubicación de ${name}`} />}
+</div>
+
+<style>
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .stage {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+  }
+</style>

@@ -1,0 +1,10 @@
+{
+  "id": "heart-launch-octopus",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Launch Octopus",
+  "stageName": "Base naval",
+  "locationDescription": "En una cámara sumergida de la base naval, en una ruta alternativa bajo el agua donde el movimiento de X se vuelve más lento y pesado.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 4
+}

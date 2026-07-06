@@ -1,0 +1,10 @@
+{
+  "id": "armor-boots",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "armor-part",
+  "name": "Botas de Dr. Light (Dash Boots)",
+  "stageName": "Planta de energía ártica (Chill Penguin)",
+  "locationDescription": "La pieza de armadura más fácil de conseguir: está en una zona alta de la caverna helada, cerca de una sección con pinches en el suelo. No requiere ninguna Special Weapon.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 1
+}

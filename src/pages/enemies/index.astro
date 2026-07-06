@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import EnemyCard from '@/components/EnemyCard.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+
+const enemies = await getCollection('enemies');
+const sorted = [...enemies].sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<BaseLayout title="Enemigos" description="Mechaniloids y enemigos genéricos de la saga Mega Man X.">
+  <div class="container page">
+    <Breadcrumbs items={[{ label: 'Enemigos' }]} />
+    <SectionHeading eyebrow="Mechaniloids">Enemigos</SectionHeading>
+    {
+      sorted.length > 0 ? (
+        <div class="grid grid-cards">
+          {sorted.map((e) => (
+            <EnemyCard id={e.id} name={e.data.name} classification={e.data.classification} image={e.data.image} />
+          ))}
+        </div>
+      ) : (
+        <p class="empty">Todavía no cargamos la base de datos de enemigos. Vuelve pronto.</p>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-block: 2rem 4rem;
+  }
+
+  .empty {
+    color: var(--text-dim);
+  }
+</style>

@@ -1,0 +1,27 @@
+---
+import Badge from './Badge.astro';
+
+interface Props {
+  role: 'hero' | 'maverick' | 'reploid' | 'human' | 'other';
+}
+
+const { role } = Astro.props;
+
+const labels: Record<Props['role'], string> = {
+  hero: 'Cazador',
+  maverick: 'Maverick',
+  reploid: 'Reploid',
+  human: 'Humano',
+  other: 'Otro',
+};
+
+const tones: Record<Props['role'], 'accent' | 'danger' | 'energy' | 'muted'> = {
+  hero: 'accent',
+  maverick: 'danger',
+  reploid: 'energy',
+  human: 'muted',
+  other: 'muted',
+};
+---
+
+<Badge tone={tones[role]}>{labels[role]}</Badge>

@@ -1,0 +1,10 @@
+{
+  "id": "armor-body",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "armor-part",
+  "name": "Armadura corporal de Dr. Light",
+  "stageName": "Bosque/jungla (Sting Chameleon)",
+  "locationDescription": "Antes de entrar a la sección de cuevas de la fase, hay que trepar los acantilados sobre la zona del Heart Tank y seguir el camino elevado hasta un mini-jefe; al vencerlo se abre la cápsula. Reduce a la mitad el daño que recibe X.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 3
+}

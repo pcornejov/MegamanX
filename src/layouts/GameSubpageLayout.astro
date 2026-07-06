@@ -1,0 +1,30 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import GameSubNav from '@/components/GameSubNav.astro';
+
+interface Props {
+  gameId: string;
+  gameTitle: string;
+  pageTitle: string;
+  accentColor: string;
+  description?: string;
+}
+
+const { gameId, gameTitle, pageTitle, accentColor, description } = Astro.props;
+---
+
+<BaseLayout title={`${pageTitle} · ${gameTitle}`} description={description}>
+  <div class="container game-subpage" style={`--accent: ${accentColor}`}>
+    <Breadcrumbs items={[{ label: 'Juegos', href: '/games' }, { label: gameTitle, href: `/games/${gameId}` }, { label: pageTitle }]} />
+    <GameSubNav gameId={gameId} />
+    <slot />
+  </div>
+</BaseLayout>
+
+<style>
+  .game-subpage {
+    padding-block: 2rem 4rem;
+    --accent-glow: color-mix(in srgb, var(--accent) 70%, white 15%);
+  }
+</style>

@@ -1,0 +1,18 @@
+{
+  "id": "x",
+  "name": "X",
+  "role": "hero",
+  "aliases": ["Mega Man X", "Rockman X"],
+  "games": [{ "collection": "games", "id": "x1" }],
+  "bio": [
+    "X es el último robot construido por el Dr. Thomas Light: la primera máquina con la capacidad de pensar y sentir por sí misma, en lugar de limitarse a seguir órdenes. Por miedo al potencial de esa libertad, Light lo selló durante 30 años, sometiéndolo a pruebas de seguridad continuas antes de considerarlo listo para el mundo.",
+    "Encontrado por el Dr. Cain, X se convierte en el modelo original de los Reploids. Aunque no fue diseñado para el combate, se une a los Maverick Hunters para intentar demostrar que los Reploids y los humanos pueden convivir en paz, incluso cuando eso signifique enfrentarse a los suyos.",
+    "Su arma principal es el X-Buster, un cañón de brazo capaz de acumular energía para disparos cargados, y puede copiar temporalmente las armas especiales de los Mavericks que derrota."
+  ],
+  "weapons": [
+    { "name": "X-Buster", "description": "Cañón de brazo integrado con disparo normal y disparo cargado." },
+    { "name": "Special Weapons", "description": "Armas obtenidas al derrotar a cada Maverick, cada una con su propia carga especial." }
+  ],
+  "specialAbility": "Puede equipar armaduras de Dr. Light que combinan piezas de casco, cuerpo, brazo y piernas con mejoras permanentes.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/X"
+}

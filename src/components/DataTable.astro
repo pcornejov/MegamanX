@@ -1,0 +1,56 @@
+---
+interface Row {
+  label: string;
+  value: string;
+}
+
+interface Props {
+  rows: Row[];
+  caption?: string;
+}
+
+const { rows, caption } = Astro.props;
+---
+
+<table class="data-table">
+  {caption && <caption>{caption}</caption>}
+  <tbody>
+    {
+      rows.map((row) => (
+        <tr>
+          <th scope="row">{row.label}</th>
+          <td>{row.value}</td>
+        </tr>
+      ))
+    }
+  </tbody>
+</table>
+
+<style>
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+
+  caption {
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--border-soft);
+  }
+
+  th {
+    color: var(--text-muted);
+    font-weight: 500;
+    width: 40%;
+  }
+</style>

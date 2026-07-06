@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import GameSubpageLayout from '@/layouts/GameSubpageLayout.astro';
+import CollectibleItem from '@/components/CollectibleItem.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games');
+  return games.map((game) => ({ params: { game: game.id }, props: { game } }));
+}
+
+const { game } = Astro.props;
+
+const allCollectibles = await getCollection('collectibles');
+const items = allCollectibles
+  .filter((c) => c.data.game.id === game.id)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const groups: Record<string, typeof items> = {
+  'heart-tank': items.filter((i) => i.data.type === 'heart-tank'),
+  'sub-tank': items.filter((i) => i.data.type === 'sub-tank'),
+  'armor-part': items.filter((i) => i.data.type === 'armor-part'),
+  'other-upgrade': items.filter((i) => i.data.type === 'other-upgrade'),
+};
+
+const groupTitles: Record<string, string> = {
+  'heart-tank': 'Heart Tanks',
+  'sub-tank': 'Sub Tanks',
+  'armor-part': 'Piezas de armadura',
+  'other-upgrade': 'Otras mejoras',
+};
+---
+
+<GameSubpageLayout
+  gameId={game.id}
+  gameTitle={game.data.title}
+  pageTitle="Coleccionables"
+  accentColor={game.data.accentColor}
+>
+  <SectionHeading eyebrow="100%">Coleccionables de {game.data.title}</SectionHeading>
+  {
+    items.length > 0 ? (
+      Object.entries(groups).map(
+        ([key, list]) =>
+          list.length > 0 && (
+            <section>
+              <SectionHeading level="h3">{groupTitles[key]}</SectionHeading>
+              <div class="grid grid-cards">
+                {list.map((item) => (
+                  <CollectibleItem
+                    name={item.data.name}
+                    type={item.data.type}
+                    stageName={item.data.stageName}
+                    locationDescription={item.data.locationDescription}
+                    videoId={item.data.videoId}
+                    videoStart={item.data.videoStart}
+                  />
+                ))}
+              </div>
+            </section>
+          ),
+      )
+    ) : (
+      <p class="empty">Todavía no cargamos los coleccionables de este juego. Vuelve pronto.</p>
+    )
+  }
+</GameSubpageLayout>
+
+<style>
+  .empty {
+    color: var(--text-dim);
+  }
+
+  section {
+    margin-bottom: 2.5rem;
+  }
+</style>

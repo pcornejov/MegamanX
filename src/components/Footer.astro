@@ -1,0 +1,36 @@
+---
+import { withBase } from '@/lib/url';
+---
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>
+      Proyecto de fans no oficial, sin afiliación con Capcom. Mega Man X y todos los personajes
+      relacionados son marcas registradas de Capcom Co., Ltd.
+    </p>
+    <p class="credits">
+      Datos e imágenes de referencia: <a href="https://rawg.io" target="_blank" rel="noopener noreferrer">RAWG.io</a> ·
+      <a href="https://megaman.fandom.com" target="_blank" rel="noopener noreferrer">Mega Man Knowledge Base (Fandom, CC BY-SA)</a> ·
+      videos embebidos de sus respectivos canales de YouTube.
+      Ver <a href={withBase('/about')}>créditos completos</a>.
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--border);
+    margin-top: 3rem;
+    padding-block: 1.5rem;
+    color: var(--text-dim);
+    font-size: 0.8rem;
+  }
+
+  .footer-inner p {
+    margin-bottom: 0.5rem;
+  }
+
+  .credits a {
+    color: var(--text-muted);
+  }
+</style>

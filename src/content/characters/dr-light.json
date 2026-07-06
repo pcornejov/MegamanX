@@ -1,0 +1,13 @@
+{
+  "id": "dr-light",
+  "name": "Dr. Light",
+  "role": "human",
+  "aliases": ["Dr. Thomas Light"],
+  "games": [{ "collection": "games", "id": "x1" }],
+  "bio": [
+    "El Dr. Thomas Light es el creador original de X y, mucho antes, de los robots clásicos de la serie Mega Man. Falleció antes de los eventos de Mega Man X, pero dejó cápsulas ocultas con hologramas de sí mismo repartidas por el mundo.",
+    "En estas cápsulas, la imagen de Light guía a X para encontrar piezas de armadura y mejoras que él mismo diseñó, anticipando que su creación algún día necesitaría ese equipo para sobrevivir a un conflicto mayor."
+  ],
+  "occupation": "Roboticista, creador de X",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Dr._Light"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "armored-armadillo",
+  "name": "Armored Armadillo",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x1" },
+  "games": [{ "collection": "games", "id": "x1" }],
+  "stageName": "Fábrica de armamento",
+  "elementType": "Armadura/Explosivos",
+  "weakTo": { "collection": "characters", "id": "spark-mandrill" },
+  "weaponObtained": "Rolling Shield",
+  "bio": [
+    "Maverick fuertemente blindado que patrulla una fábrica de armamento. Se enrosca en su caparazón para embestir a gran velocidad, un estado en el que la mayoría de los disparos normales no le hacen daño.",
+    "El Electric Spark de Spark Mandrill logra atravesar su blindaje incluso mientras está enroscado, algo que el X-Buster no consigue con la misma eficacia."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Armored_Armadillo"
+}

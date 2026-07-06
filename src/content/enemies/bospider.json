@@ -1,0 +1,9 @@
+{
+  "id": "bospider",
+  "name": "Bospider",
+  "games": [{ "collection": "games", "id": "x1" }],
+  "classification": "boss-minion",
+  "description": "Una araña mecánica gigante, originalmente diseñada como una trituradora industrial de chatarra, que Sigma reutilizó para custodiar el final de la primera parte de su fortaleza. Se desplaza tejiendo una red y ataca a X desde varios ángulos.",
+  "notes": "Débil al Shotgun Ice (obtenido de Chill Penguin).",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Bospider"
+}

@@ -1,0 +1,45 @@
+---
+import Badge from './Badge.astro';
+
+interface Props {
+  name: string;
+  description: string;
+  newInThisGame?: boolean;
+}
+
+const { name, description, newInThisGame } = Astro.props;
+---
+
+<div class="mechanic panel-sm panel">
+  <div class="head">
+    <h3>{name}</h3>
+    {newInThisGame && <Badge tone="energy">Nuevo</Badge>}
+  </div>
+  <p>{description}</p>
+</div>
+
+<style>
+  .mechanic {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.88rem;
+  }
+</style>

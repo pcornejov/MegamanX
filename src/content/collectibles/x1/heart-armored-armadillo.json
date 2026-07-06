@@ -1,0 +1,10 @@
+{
+  "id": "heart-armored-armadillo",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Armored Armadillo",
+  "stageName": "Fábrica de armamento",
+  "locationDescription": "En una zona alta de la fábrica, sobre una plataforma que se alcanza combinando dash-jump y wall jump entre las estructuras metálicas.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 8
+}

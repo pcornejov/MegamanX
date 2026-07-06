@@ -1,0 +1,125 @@
+---
+import { getCollection, getEntries } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import Badge from '@/components/Badge.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import { withBase } from '@/lib/url';
+
+export async function getStaticPaths() {
+  const enemies = await getCollection('enemies');
+  return enemies.map((enemy) => ({ params: { enemy: enemy.id }, props: { enemy } }));
+}
+
+const classLabels: Record<string, string> = {
+  aerial: 'Aéreo',
+  ground: 'Terrestre',
+  aquatic: 'Acuático',
+  turret: 'Torreta',
+  'boss-minion': 'Escolta de jefe',
+  other: 'Otro',
+};
+
+const { enemy } = Astro.props;
+const games = enemy.data.games.length > 0 ? await getEntries(enemy.data.games) : [];
+---
+
+<BaseLayout title={enemy.data.name} description={enemy.data.description}>
+  <div class="container page">
+    <Breadcrumbs items={[{ label: 'Enemigos', href: '/enemies' }, { label: enemy.data.name }]} />
+
+    <header class="enemy-header">
+      <div class="thumb" aria-hidden={enemy.data.image ? undefined : 'true'}>
+        {enemy.data.image ? <img src={enemy.data.image} alt="" /> : <span>?</span>}
+      </div>
+      <div>
+        <Badge>{classLabels[enemy.data.classification] ?? enemy.data.classification}</Badge>
+        <h1>{enemy.data.name}</h1>
+      </div>
+    </header>
+
+    <p class="description">{enemy.data.description}</p>
+    {enemy.data.notes && <p class="notes">{enemy.data.notes}</p>}
+
+    {
+      games.length > 0 && (
+        <section>
+          <SectionHeading level="h3">Aparece en</SectionHeading>
+          <ul class="games-list">
+            {games.map((g) => (
+              <li>
+                <a href={withBase(`/games/${g.id}`)}>{g.data.title}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      enemy.data.sourceWikiUrl && (
+        <p class="source">
+          Ficha ampliada en la{' '}
+          <a href={enemy.data.sourceWikiUrl} target="_blank" rel="noopener noreferrer">
+            Mega Man Knowledge Base ↗
+          </a>
+        </p>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-block: 2rem 4rem;
+    max-width: 780px;
+  }
+
+  .enemy-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .thumb {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+
+  .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h1 {
+    margin: 0.3rem 0 0;
+  }
+
+  .description,
+  .notes {
+    color: var(--text-muted);
+  }
+
+  .games-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .source {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+</style>

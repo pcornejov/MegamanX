@@ -1,0 +1,100 @@
+---
+import { withBase } from '@/lib/url';
+import VideoEmbed from './VideoEmbed.astro';
+
+interface Props {
+  order: number;
+  characterId: string;
+  characterName: string;
+  portrait?: string;
+  stageName?: string;
+  weaponObtained?: string;
+  reasoning: string;
+  videoId?: string;
+  videoStart?: number;
+}
+
+const { order, characterId, characterName, portrait, stageName, weaponObtained, reasoning, videoId, videoStart } =
+  Astro.props;
+---
+
+<li class="step panel-sm panel">
+  <div class="step-head">
+    <span class="step-number">{String(order).padStart(2, '0')}</span>
+    <div class="portrait" aria-hidden={portrait ? undefined : 'true'}>
+      {portrait ? <img src={portrait} alt="" loading="lazy" /> : <span>{characterName.charAt(0)}</span>}
+    </div>
+    <div>
+      <h3><a href={withBase(`/characters/${characterId}`)}>{characterName}</a></h3>
+      {stageName && <p class="stage">{stageName}</p>}
+    </div>
+  </div>
+  <p class="reasoning">{reasoning}</p>
+  {weaponObtained && (
+    <p class="weapon">
+      <strong>Arma obtenida:</strong> {weaponObtained}
+    </p>
+  )}
+  {videoId && <VideoEmbed videoId={videoId} start={videoStart} title={`Cómo vencer a ${characterName}`} />}
+</li>
+
+<style>
+  .step {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .step-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .step-number {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    color: var(--danger);
+    min-width: 2.4rem;
+  }
+
+  .portrait {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    background: var(--bg-raised);
+    border: 1px solid var(--border-soft);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+
+  .portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  .stage {
+    margin: 0;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+  }
+
+  .reasoning {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+  }
+
+  .weapon {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+</style>

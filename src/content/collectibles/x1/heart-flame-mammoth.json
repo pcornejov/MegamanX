@@ -1,0 +1,10 @@
+{
+  "id": "heart-flame-mammoth",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Flame Mammoth",
+  "stageName": "Refinería de petróleo",
+  "locationDescription": "En una zona alta de la refinería, sobre una de las cintas transportadoras; conviene tener ya el casco y las botas de Dr. Light para llegar sin perder tiempo.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 3
+}

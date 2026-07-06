@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import GameCard from '@/components/GameCard.astro';
+
+const games = (await getCollection('games'))
+  .filter((g) => g.data.category === 'spinoff')
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout title="Otros juegos" description="Spin-offs y otras entregas de la saga Mega Man X: Command Mission, Xtreme y el remake Maverick Hunter X.">
+  <div class="container page">
+    <Breadcrumbs items={[{ label: 'Otros juegos' }]} />
+    <SectionHeading eyebrow="Curiosidades">Otros juegos de la saga</SectionHeading>
+    <p class="intro">
+      Spin-offs y reinvenciones de la saga: no tienen guía de orden de jefes ni coleccionables detallada,
+      pero forman parte de la cronología y traen sus propias curiosidades.
+    </p>
+    {
+      games.length > 0 ? (
+        <div class="grid grid-cards">
+          {games.map((game) => (
+            <GameCard
+              id={game.id}
+              title={game.data.title}
+              subtitle={game.data.subtitle}
+              releaseYear={game.data.releaseYear}
+              platforms={game.data.platforms}
+              description={game.data.description}
+              accentColor={game.data.accentColor}
+              comingSoon={game.data.comingSoon}
+            />
+          ))}
+        </div>
+      ) : (
+        <p class="empty">Todavía no cargamos esta sección. Vuelve pronto.</p>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-block: 2rem 4rem;
+  }
+
+  .intro {
+    color: var(--text-muted);
+    max-width: 65ch;
+    margin-bottom: 2rem;
+  }
+
+  .empty {
+    color: var(--text-dim);
+  }
+</style>

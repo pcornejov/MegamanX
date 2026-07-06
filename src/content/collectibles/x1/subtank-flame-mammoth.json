@@ -1,0 +1,10 @@
+{
+  "id": "subtank-flame-mammoth",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "sub-tank",
+  "name": "Sub Tank #2",
+  "stageName": "Refinería de petróleo (Flame Mammoth)",
+  "locationDescription": "En una sección elevada de la refinería; conviene tener el casco de Dr. Light para romper los bloques que bloquean el camino directo.",
+  "videoId": "qrSYseDWnzA",
+  "order": 2
+}

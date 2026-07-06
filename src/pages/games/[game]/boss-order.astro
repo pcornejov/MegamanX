@@ -1,0 +1,71 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import GameSubpageLayout from '@/layouts/GameSubpageLayout.astro';
+import BossOrderTimeline from '@/components/BossOrderTimeline.astro';
+import VideoEmbed from '@/components/VideoEmbed.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games');
+  return games.map((game) => ({ params: { game: game.id }, props: { game } }));
+}
+
+const { game } = Astro.props;
+
+const steps = await Promise.all(
+  game.data.bossOrder.map(async (entry) => {
+    const character = await getEntry(entry.character);
+    return {
+      order: entry.order,
+      characterId: character?.id ?? entry.character.id,
+      characterName: character?.data.name ?? entry.character.id,
+      portrait: character?.data.portrait,
+      stageName: entry.stageName,
+      weaponObtained: entry.weaponObtained,
+      reasoning: entry.reasoning,
+      videoId: entry.videoId,
+      videoStart: entry.videoStart,
+    };
+  }),
+);
+---
+
+<GameSubpageLayout
+  gameId={game.id}
+  gameTitle={game.data.title}
+  pageTitle="Orden de jefes"
+  accentColor={game.data.accentColor}
+>
+  <SectionHeading eyebrow="Guía de Maverick Hunters">Orden recomendado de jefes</SectionHeading>
+  {
+    steps.length > 0 ? (
+      <>
+        <BossOrderTimeline steps={steps} />
+        {game.data.fullWalkthroughVideoId && (
+          <section class="full-walkthrough">
+            <SectionHeading eyebrow="Video completo" level="h3">
+              Recorrido completo
+            </SectionHeading>
+            <VideoEmbed
+              videoId={game.data.fullWalkthroughVideoId}
+              title={`Recorrido completo de orden de jefes — ${game.data.title}`}
+            />
+          </section>
+        )}
+      </>
+    ) : (
+      <p class="empty">Todavía no cargamos el orden de jefes de este juego. Vuelve pronto.</p>
+    )
+  }
+</GameSubpageLayout>
+
+<style>
+  .empty {
+    color: var(--text-dim);
+  }
+
+  .full-walkthrough {
+    margin-top: 2.5rem;
+    max-width: 680px;
+  }
+</style>

@@ -1,0 +1,55 @@
+---
+import { withBase } from '@/lib/url';
+
+interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  items: Crumb[];
+}
+
+const { items } = Astro.props;
+---
+
+<nav class="breadcrumbs" aria-label="Ruta de navegación">
+  <ol>
+    {
+      items.map((item, i) => (
+        <li>
+          {item.href ? <a href={withBase(item.href)}>{item.label}</a> : <span aria-current="page">{item.label}</span>}
+          {i < items.length - 1 && <span class="sep">/</span>}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
+
+<style>
+  .breadcrumbs ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  .breadcrumbs li {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .breadcrumbs a {
+    color: var(--text-muted);
+  }
+
+  .sep {
+    color: var(--text-dim);
+  }
+</style>

@@ -1,0 +1,78 @@
+---
+import Badge from './Badge.astro';
+
+interface Props {
+  title: string;
+  body: string;
+  category: 'development' | 'reference' | 'glitch' | 'easter-egg' | 'design' | 'other';
+  sourceUrl?: string;
+}
+
+const categoryLabels: Record<Props['category'], string> = {
+  development: 'Desarrollo',
+  reference: 'Referencia',
+  glitch: 'Glitch',
+  'easter-egg': 'Easter egg',
+  design: 'Diseño',
+  other: 'Otro',
+};
+
+const { title, body, category, sourceUrl } = Astro.props;
+---
+
+<details class="trivia panel-sm panel">
+  <summary>
+    <Badge>{categoryLabels[category]}</Badge>
+    <span>{title}</span>
+  </summary>
+  <p>{body}</p>
+  {
+    sourceUrl && (
+      <a class="source" href={sourceUrl} target="_blank" rel="noopener noreferrer">
+        Fuente ↗
+      </a>
+    )
+  }
+</details>
+
+<style>
+  .trivia {
+    padding: 1rem 1.25rem;
+  }
+
+  summary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::before {
+    content: '+';
+    color: var(--accent-glow);
+    font-size: 1.1rem;
+  }
+
+  details[open] summary::before {
+    content: '−';
+  }
+
+  p {
+    margin: 0.75rem 0 0;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+
+  .source {
+    font-size: 0.78rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+</style>

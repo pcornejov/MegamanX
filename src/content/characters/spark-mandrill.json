@@ -1,0 +1,17 @@
+{
+  "id": "spark-mandrill",
+  "name": "Spark Mandrill",
+  "role": "maverick",
+  "aliases": [],
+  "game": { "collection": "games", "id": "x1" },
+  "games": [{ "collection": "games", "id": "x1" }],
+  "stageName": "Central eléctrica de Sigma",
+  "elementType": "Electricidad",
+  "weakTo": { "collection": "characters", "id": "chill-penguin" },
+  "weaponObtained": "Electric Spark",
+  "bio": [
+    "Maverick de tipo eléctrico que custodia una central de energía. Se mueve a gran velocidad por las paredes y el techo antes de lanzarse en picada contra X.",
+    "El Shotgun Ice de Chill Penguin lo congela en pleno salto, dejándolo expuesto durante varios segundos y acortando drásticamente la pelea."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Spark_Mandrill"
+}

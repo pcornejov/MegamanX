@@ -1,0 +1,10 @@
+{
+  "id": "heart-chill-penguin",
+  "game": { "collection": "games", "id": "x1" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Chill Penguin",
+  "stageName": "Planta de energía ártica",
+  "locationDescription": "Escondido en una sección helada de la fase, en una zona alta a la que se llega saltando entre plataformas de hielo antes de la sala del jefe. No requiere ninguna Special Weapon todavía, solo un salto preciso.",
+  "videoId": "ALhhVK0kNOg",
+  "order": 1
+}

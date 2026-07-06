@@ -1,0 +1,119 @@
+---
+import { withBase } from '@/lib/url';
+import Badge from './Badge.astro';
+
+interface Props {
+  id: string;
+  title: string;
+  subtitle?: string;
+  releaseYear: number;
+  platforms: string[];
+  description: string;
+  accentColor: string;
+  comingSoon?: boolean;
+}
+
+const { id, title, subtitle, releaseYear, platforms, description, accentColor, comingSoon = false } =
+  Astro.props;
+---
+
+<article class="game-card panel" style={`--card-accent: ${accentColor}`}>
+  <div class="card-head">
+    <span class="year">{releaseYear}</span>
+    {comingSoon && <Badge tone="muted">Próximamente</Badge>}
+  </div>
+  <h3>
+    {
+      comingSoon ? (
+        <span class="title-link disabled">{title}</span>
+      ) : (
+        <a class="title-link" href={withBase(`/games/${id}`)}>
+          {title}
+        </a>
+      )
+    }
+  </h3>
+  {subtitle && <p class="subtitle">{subtitle}</p>}
+  <p class="description">{description}</p>
+  <ul class="platforms">
+    {platforms.map((p) => <li>{p}</li>)}
+  </ul>
+</article>
+
+<style>
+  .game-card {
+    --card-accent: var(--accent);
+    border-color: var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  }
+
+  .game-card:hover {
+    border-color: var(--card-accent);
+    box-shadow: 0 0 20px color-mix(in srgb, var(--card-accent) 30%, transparent);
+  }
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .year {
+    font-family: var(--font-mono);
+    color: var(--text-dim);
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.15rem;
+  }
+
+  .title-link {
+    color: var(--text);
+  }
+
+  .title-link:hover {
+    color: var(--card-accent);
+    text-decoration: none;
+  }
+
+  .title-link.disabled {
+    color: var(--text-dim);
+    cursor: default;
+  }
+
+  .subtitle {
+    color: var(--card-accent);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    margin: 0;
+  }
+
+  .description {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  .platforms {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0;
+    margin: 0.4rem 0 0;
+  }
+
+  .platforms li {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    border: 1px solid var(--border-soft);
+    padding: 0.15rem 0.4rem;
+  }
+</style>

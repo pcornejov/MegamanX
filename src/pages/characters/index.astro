@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import CharacterCard from '@/components/CharacterCard.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+
+const characters = await getCollection('characters');
+const sorted = [...characters].sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<BaseLayout title="Personajes" description="Cazadores, Mavericks, Reploids y humanos de la saga Mega Man X.">
+  <div class="container page">
+    <Breadcrumbs items={[{ label: 'Personajes' }]} />
+    <SectionHeading eyebrow="Base de datos">Personajes</SectionHeading>
+    <div class="grid grid-cards">
+      {
+        sorted.map((c) => (
+          <CharacterCard id={c.id} name={c.data.name} role={c.data.role} portrait={c.data.portrait} />
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-block: 2rem 4rem;
+  }
+</style>

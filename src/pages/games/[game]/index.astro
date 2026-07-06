@@ -1,0 +1,83 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import GameSubpageLayout from '@/layouts/GameSubpageLayout.astro';
+import MechanicCard from '@/components/MechanicCard.astro';
+import CharacterCard from '@/components/CharacterCard.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games');
+  return games.map((game) => ({ params: { game: game.id }, props: { game } }));
+}
+
+const { game } = Astro.props;
+const { Content } = await render(game);
+
+const allCharacters = await getCollection('characters');
+const roster = allCharacters.filter((c) => c.data.games.some((g) => g.id === game.id));
+const mavericks = roster.filter((c) => c.data.role === 'maverick');
+const others = roster.filter((c) => c.data.role !== 'maverick');
+---
+
+<GameSubpageLayout
+  gameId={game.id}
+  gameTitle={game.data.title}
+  pageTitle="Resumen"
+  accentColor={game.data.accentColor}
+  description={game.data.description}
+>
+  <article class="intro">
+    <Content />
+  </article>
+
+  {
+    game.data.mechanics.length > 0 && (
+      <section>
+        <SectionHeading eyebrow="Gameplay">Mecánicas destacadas</SectionHeading>
+        <div class="grid grid-cards">
+          {game.data.mechanics.slice(0, 6).map((m) => (
+            <MechanicCard name={m.name} description={m.description} newInThisGame={m.newInThisGame} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    mavericks.length > 0 && (
+      <section>
+        <SectionHeading eyebrow="Roster">Mavericks de este juego</SectionHeading>
+        <div class="grid grid-cards">
+          {mavericks.map((c) => (
+            <CharacterCard id={c.id} name={c.data.name} role={c.data.role} portrait={c.data.portrait} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    others.length > 0 && (
+      <section>
+        <SectionHeading eyebrow="Roster">Otros personajes</SectionHeading>
+        <div class="grid grid-cards">
+          {others.map((c) => (
+            <CharacterCard id={c.id} name={c.data.name} role={c.data.role} portrait={c.data.portrait} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+</GameSubpageLayout>
+
+<style>
+  .intro {
+    color: var(--text-muted);
+    max-width: 72ch;
+    margin-bottom: 2.5rem;
+  }
+
+  section {
+    margin-bottom: 2.5rem;
+  }
+</style>

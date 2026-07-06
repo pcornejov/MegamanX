@@ -1,0 +1,65 @@
+---
+interface Props {
+  eyebrow?: string;
+  level?: 'h1' | 'h2' | 'h3';
+}
+
+const { eyebrow, level = 'h2' } = Astro.props;
+const Tag = level;
+---
+
+<div class="heading">
+  {eyebrow && <p class="eyebrow">⌐ {eyebrow}</p>}
+  <Tag>
+    <slot />
+  </Tag>
+</div>
+
+<style>
+  .heading {
+    margin-bottom: 1.5rem;
+  }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--energy);
+    margin-bottom: 0.35rem;
+  }
+
+  .heading :global(h1),
+  .heading :global(h2),
+  .heading :global(h3) {
+    position: relative;
+    display: inline-block;
+    padding-inline: 0.5rem;
+  }
+
+  .heading :global(h1)::before,
+  .heading :global(h2)::before,
+  .heading :global(h3)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid var(--accent);
+    border-top: 2px solid var(--accent);
+  }
+
+  .heading :global(h1)::after,
+  .heading :global(h2)::after,
+  .heading :global(h3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+  }
+</style>

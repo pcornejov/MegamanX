@@ -1,0 +1,74 @@
+---
+import { withBase } from '@/lib/url';
+import RoleBadge from './RoleBadge.astro';
+
+interface Props {
+  id: string;
+  name: string;
+  role: 'hero' | 'maverick' | 'reploid' | 'human' | 'other';
+  tagline?: string;
+  portrait?: string;
+}
+
+const { id, name, role, tagline, portrait } = Astro.props;
+---
+
+<a class="character-card panel-sm panel" href={withBase(`/characters/${id}`)}>
+  <div class="portrait" aria-hidden={portrait ? undefined : 'true'}>
+    {portrait ? <img src={portrait} alt="" loading="lazy" /> : <span class="fallback">{name.charAt(0)}</span>}
+  </div>
+  <div class="info">
+    <RoleBadge role={role} />
+    <h3>{name}</h3>
+    {tagline && <p>{tagline}</p>}
+  </div>
+</a>
+
+<style>
+  .character-card {
+    display: flex;
+    gap: 0.85rem;
+    align-items: center;
+    color: var(--text);
+    transition: border-color var(--transition-fast);
+  }
+
+  .character-card:hover {
+    text-decoration: none;
+    border-color: var(--accent);
+  }
+
+  .portrait {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    background: var(--bg-raised);
+    border: 1px solid var(--border-soft);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+
+  .portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .fallback {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    color: var(--text-dim);
+  }
+
+  .info h3 {
+    margin: 0.2rem 0 0.1rem;
+    font-size: 1rem;
+  }
+
+  .info p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+</style>

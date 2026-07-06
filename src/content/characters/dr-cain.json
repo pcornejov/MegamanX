@@ -1,0 +1,14 @@
+{
+  "id": "dr-cain",
+  "name": "Dr. Cain",
+  "role": "human",
+  "aliases": [],
+  "games": [{ "collection": "games", "id": "x1" }],
+  "bio": [
+    "Dr. Cain es el arqueólogo y científico que, décadas después de la muerte del Dr. Light, descubre las ruinas de su laboratorio y, en ellas, la cápsula que contiene a X.",
+    "Al analizar los planos de X, Cain desarrolla la tecnología para crear a los Reploids, dando inicio a la era que define toda la saga — sin comprender del todo el riesgo que implicaba reproducir en masa una tecnología tan avanzada.",
+    "Se lo suele considerar, con cierta ironía, el responsable indirecto tanto de la sociedad de los Reploids como del fenómeno Maverick que la amenaza."
+  ],
+  "occupation": "Arqueólogo y roboticista",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Dr._Cain"
+}

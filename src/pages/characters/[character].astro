@@ -1,0 +1,188 @@
+---
+import { getCollection, getEntry, getEntries } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import RoleBadge from '@/components/RoleBadge.astro';
+import DataTable from '@/components/DataTable.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import { withBase } from '@/lib/url';
+
+export async function getStaticPaths() {
+  const characters = await getCollection('characters');
+  return characters.map((character) => ({ params: { character: character.id }, props: { character } }));
+}
+
+const { character } = Astro.props;
+const data = character.data;
+
+const games = data.games.length > 0 ? await getEntries(data.games) : [];
+const weakToEntry = data.role === 'maverick' && data.weakTo ? await getEntry(data.weakTo) : undefined;
+
+const rows: { label: string; value: string }[] = [];
+if (data.role === 'maverick') {
+  if (data.stageName) rows.push({ label: 'Escenario', value: data.stageName });
+  if (data.elementType) rows.push({ label: 'Tipo', value: data.elementType });
+  if (data.weaponObtained) rows.push({ label: 'Arma obtenida al vencerlo', value: data.weaponObtained });
+  if (weakToEntry) rows.push({ label: 'Débil contra', value: weakToEntry.data.name });
+}
+if (data.role === 'reploid') {
+  if (data.affiliation) rows.push({ label: 'Afiliación', value: data.affiliation });
+  if (data.rank) rows.push({ label: 'Rango', value: data.rank });
+}
+if (data.role === 'human') {
+  if (data.affiliation) rows.push({ label: 'Afiliación', value: data.affiliation });
+  if (data.occupation) rows.push({ label: 'Ocupación', value: data.occupation });
+}
+if (data.role === 'hero' && data.specialAbility) {
+  rows.push({ label: 'Habilidad especial', value: data.specialAbility });
+}
+---
+
+<BaseLayout title={data.name} description={data.bio[0]}>
+  <div class="container page">
+    <Breadcrumbs items={[{ label: 'Personajes', href: '/characters' }, { label: data.name }]} />
+
+    <header class="char-header">
+      <div class="portrait" aria-hidden={data.portrait ? undefined : 'true'}>
+        {data.portrait ? <img src={data.portrait} alt="" /> : <span>{data.name.charAt(0)}</span>}
+      </div>
+      <div>
+        <RoleBadge role={data.role} />
+        <h1>{data.name}</h1>
+        {data.aliases.length > 0 && <p class="aliases">También conocido como: {data.aliases.join(', ')}</p>}
+      </div>
+    </header>
+
+    <div class="content-grid">
+      <article class="bio">
+        {data.bio.map((paragraph) => <p>{paragraph}</p>)}
+      </article>
+
+      <aside>
+        {rows.length > 0 && <DataTable rows={rows} caption="Datos" />}
+
+        {data.role === 'hero' && data.weapons.length > 0 && (
+          <section>
+            <SectionHeading level="h3">Armas y técnicas</SectionHeading>
+            <ul class="weapons">
+              {data.weapons.map((w) => (
+                <li>
+                  <strong>{w.name}</strong> — {w.description}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {games.length > 0 && (
+          <section>
+            <SectionHeading level="h3">Aparece en</SectionHeading>
+            <ul class="games-list">
+              {games.map((g) => (
+                <li>
+                  <a href={withBase(`/games/${g.id}`)}>{g.data.title}</a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {data.sourceWikiUrl && (
+          <p class="source">
+            Ficha ampliada en la{' '}
+            <a href={data.sourceWikiUrl} target="_blank" rel="noopener noreferrer">
+              Mega Man Knowledge Base ↗
+            </a>
+          </p>
+        )}
+      </aside>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-block: 2rem 4rem;
+  }
+
+  .char-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .portrait {
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+
+  .portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .portrait span {
+    font-family: var(--font-display);
+    font-size: 2.4rem;
+    color: var(--text-dim);
+  }
+
+  h1 {
+    margin: 0.3rem 0 0;
+  }
+
+  .aliases {
+    margin: 0;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+
+  .content-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+
+  @media (max-width: 800px) {
+    .content-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .bio p {
+    color: var(--text-muted);
+  }
+
+  aside section {
+    margin-top: 1.75rem;
+  }
+
+  .weapons,
+  .games-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .weapons li {
+    color: var(--text-muted);
+  }
+
+  .source {
+    margin-top: 1.75rem;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+</style>

@@ -1,0 +1,10 @@
+{
+  "id": "subtank-volt-kraken",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "sub-tank",
+  "name": "Sub Tank #2",
+  "stageName": "Instalación eléctrica submarina (Volt Kraken)",
+  "locationDescription": "Escondido en una sala secundaria de la instalación, detrás de una serie de enemigos eléctricos.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 2
+}

@@ -1,0 +1,29 @@
+{
+  "id": "burn-rooster",
+  "name": "Burn Rooster",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x8"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "stageName": "Inferno",
+  "elementType": "Fuego/Ave",
+  "weakTo": {
+    "collection": "characters",
+    "id": "avalanche-yeti"
+  },
+  "weaponObtained": "Melt Creeper",
+  "bio": [
+    "Maverick con forma de gallo envuelto en llamas que domina una zona volcánica, atacando con su cresta incandescente.",
+    "El Drift Diamond de Avalanche Yeti congela sus llamas con eficacia."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Burn_Rooster",
+  "portrait": "/images/characters/burn-rooster.webp"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dynamo",
+  "name": "Dynamo",
+  "role": "reploid",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "bio": [
+    "Dynamo es un Reploid mercenario contratado por Sigma para secuestrar e infectar la colonia espacial Eurasia, precipitando su caída hacia la Tierra y dando inicio a la crisis central de Mega Man X5.",
+    "De diseño y personalidad inspirados en el cine de acción, combina rasgos visuales de X y de Zero, y se roba escenas enfrentándose a ambos por su cuenta a lo largo del juego sin ser, en el fondo, un Maverick convencional.",
+    "Se convierte en un personaje recurrente y algo cómico en entregas posteriores de la saga, apareciendo como rival ocasional más que como amenaza central."
+  ],
+  "affiliation": "Mercenario independiente (contratado por Sigma)",
+  "rank": "Mercenario de combate",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Dynamo",
+  "portrait": "/images/characters/dynamo.webp"
+}

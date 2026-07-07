@@ -1,0 +1,10 @@
+{
+  "id": "heart-crescent-grizzly",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Crescent Grizzly",
+  "stageName": "Base de energía / planta industrial",
+  "locationDescription": "Escondido en una zona secundaria de la fase, como en el resto de los escenarios de X5, uno por cada Maverick.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 1
+}

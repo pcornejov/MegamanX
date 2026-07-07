@@ -1,0 +1,10 @@
+{
+  "id": "heart-soldier-stonekong",
+  "game": { "collection": "games", "id": "x7" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Soldier Stonekong",
+  "stageName": "Deep Forest",
+  "locationDescription": "Escondido en una zona secundaria del bosque, como el resto de los Heart Tanks del juego, uno por escenario de Maverick.",
+  "videoId": "hJbzFjS5i_w",
+  "order": 1
+}

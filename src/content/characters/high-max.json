@@ -1,0 +1,20 @@
+{
+  "id": "high-max",
+  "name": "High Max",
+  "role": "reploid",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "bio": [
+    "High Max es la creación más poderosa de Gate, construida analizando el ADN de Zero hasta un altísimo grado de precisión. Es casi invulnerable a las armas convencionales y sirve como uno de los combates opcionales más duros del juego.",
+    "Se presenta como el subordinado de Isoc, un guardián casi indestructible que antecede al enfrentamiento final contra Gate."
+  ],
+  "affiliation": "Aliado de Gate e Isoc",
+  "rank": "Unidad de combate de élite",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/High_Max",
+  "portrait": "/images/characters/high-max.webp"
+}

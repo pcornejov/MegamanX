@@ -1,0 +1,10 @@
+{
+  "id": "heart-burn-dinorex",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Burn Dinorex",
+  "stageName": "Zona volcánica/de excavación",
+  "locationDescription": "Escondido en una sección secundaria de la excavación volcánica.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 7
+}

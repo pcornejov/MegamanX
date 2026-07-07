@@ -1,0 +1,29 @@
+{
+  "id": "bamboo-pandamonium",
+  "name": "Bamboo Pandamonium",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x8"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "stageName": "Booster Forest",
+  "elementType": "Naturaleza/Oso panda",
+  "weakTo": {
+    "collection": "characters",
+    "id": "burn-rooster"
+  },
+  "weaponObtained": "Green Spinner",
+  "bio": [
+    "Maverick con forma de panda gigante que domina un bosque de bambú, atacando con lanzas de bambú y abrazos aplastantes.",
+    "El Melt Creeper de Burn Rooster lo golpea con eficacia, cerrando el ciclo de debilidades del juego: su propio Green Spinner es, a su vez, la debilidad de Optic Sunflower, el primer Maverick de la lista."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Bamboo_Pandamonium",
+  "portrait": "/images/characters/bamboo-pandamonium.webp"
+}

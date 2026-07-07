@@ -1,0 +1,31 @@
+{
+  "id": "burn-dinorex",
+  "name": "Burn Dinorex",
+  "role": "maverick",
+  "aliases": [
+    "Mattrex"
+  ],
+  "game": {
+    "collection": "games",
+    "id": "x5"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "stageName": "Zona volcánica/de excavación",
+  "elementType": "Fuego",
+  "weakTo": {
+    "collection": "characters",
+    "id": "spiral-pegasus"
+  },
+  "weaponObtained": "Ground Fire",
+  "bio": [
+    "Maverick con forma de dinosaurio blindado que embiste envuelto en llamas por una zona volcánica.",
+    "El Wing Spiral de Spiral Pegasus lo golpea repetidas veces mientras avanza, siendo su debilidad más confiable."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Burn_Dinorex",
+  "portrait": "/images/characters/burn-dinorex.webp"
+}

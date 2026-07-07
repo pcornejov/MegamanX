@@ -1,0 +1,31 @@
+{
+  "id": "volt-kraken",
+  "name": "Volt Kraken",
+  "role": "maverick",
+  "aliases": [
+    "Squid Adler"
+  ],
+  "game": {
+    "collection": "games",
+    "id": "x5"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "stageName": "Instalación eléctrica submarina",
+  "elementType": "Electricidad/Agua",
+  "weakTo": {
+    "collection": "characters",
+    "id": "tidal-whale"
+  },
+  "weaponObtained": "Tri-Thunder",
+  "bio": [
+    "Maverick con forma de calamar que electrifica el agua de su escenario y dispara descargas en tres direcciones.",
+    "El Goo Shaver de Tidal Whale es muy efectivo contra él, congelando parte de su ataque eléctrico."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Volt_Kraken",
+  "portrait": "/images/characters/volt-kraken.webp"
+}

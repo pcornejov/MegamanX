@@ -1,0 +1,29 @@
+{
+  "id": "splash-warfly",
+  "name": "Splash Warfly",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x7"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "stageName": "Battleship",
+  "elementType": "Agua/Insecto",
+  "weakTo": {
+    "collection": "characters",
+    "id": "tornado-tonion"
+  },
+  "weaponObtained": "Splash Laser",
+  "bio": [
+    "Maverick con forma de libélula acuática que ataca desde un acorazado, alternando entre vuelo y buceo.",
+    "El Volt Tornado de Tornado Tonion lo electrocuta con eficacia mientras está en el agua."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Splash_Warfly",
+  "portrait": "/images/characters/splash-warfly.webp"
+}

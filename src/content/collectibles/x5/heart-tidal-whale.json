@@ -1,0 +1,10 @@
+{
+  "id": "heart-tidal-whale",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Tidal Whale",
+  "stageName": "Puerto/base acuática",
+  "locationDescription": "Escondido en una sección inundada del puerto, en una ruta alternativa a la principal.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 2
+}

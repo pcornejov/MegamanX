@@ -1,0 +1,10 @@
+{
+  "id": "heart-metal-shark-player",
+  "game": { "collection": "games", "id": "x6" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Metal Shark Player",
+  "stageName": "Recycle Lab",
+  "locationDescription": "Escondido en una sección sumergida del laboratorio de reciclaje.",
+  "videoId": "R3LboY-H0J4",
+  "order": 6
+}

@@ -1,0 +1,10 @@
+{
+  "id": "heart-avalanche-yeti",
+  "game": { "collection": "games", "id": "x8" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Avalanche Yeti",
+  "stageName": "Central White",
+  "locationDescription": "Escondido en una sección helada secundaria de la fase.",
+  "videoId": "3AH3qAHdiP8",
+  "order": 6
+}

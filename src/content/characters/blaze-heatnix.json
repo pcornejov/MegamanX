@@ -1,0 +1,29 @@
+{
+  "id": "blaze-heatnix",
+  "name": "Blaze Heatnix",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x6"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "stageName": "Magma Area",
+  "elementType": "Fuego/Ave",
+  "weakTo": {
+    "collection": "characters",
+    "id": "ground-scaravich"
+  },
+  "weaponObtained": "Magma Blade",
+  "bio": [
+    "Maverick con forma de ave envuelta en fuego que se lanza en picada sobre una zona volcánica.",
+    "El Ground Dash de Ground Scaravich lo derriba con facilidad mientras está en tierra."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Blaze_Heatnix",
+  "portrait": "/images/characters/blaze-heatnix.webp"
+}

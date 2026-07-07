@@ -1,0 +1,31 @@
+{
+  "id": "spiral-pegasus",
+  "name": "Spiral Pegasus",
+  "role": "maverick",
+  "aliases": [
+    "The Skiver"
+  ],
+  "game": {
+    "collection": "games",
+    "id": "x5"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "stageName": "Base aérea/hangar",
+  "elementType": "Viento/Aire",
+  "weakTo": {
+    "collection": "characters",
+    "id": "dark-necrobat"
+  },
+  "weaponObtained": "Wing Spiral",
+  "bio": [
+    "Maverick con forma de pegaso que vuela en espiral por un hangar, generando corrientes de viento cortantes.",
+    "El Dark Hold de Dark Necrobat detiene el tiempo y lo deja completamente expuesto, siendo su debilidad más efectiva."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Spiral_Pegasus",
+  "portrait": "/images/characters/spiral-pegasus.webp"
+}

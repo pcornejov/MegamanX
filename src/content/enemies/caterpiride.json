@@ -1,0 +1,8 @@
+{
+  "id": "caterpiride",
+  "name": "Caterpiride",
+  "games": [{ "collection": "games", "id": "x6" }],
+  "classification": "ground",
+  "description": "Mechaniloid con forma de oruga blindada sobre el que X puede montarse mientras avanza; se repliega en su caparazón ante cualquier ataque.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Caterpiride"
+}

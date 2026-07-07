@@ -1,0 +1,27 @@
+{
+  "id": "crescent-grizzly",
+  "name": "Crescent Grizzly",
+  "role": "maverick",
+  "aliases": [
+    "Grizzly Slash"
+  ],
+  "game": {
+    "collection": "games",
+    "id": "x5"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "stageName": "Base de energía / planta industrial",
+  "elementType": "Fuerza física/Garras",
+  "weaponObtained": "Crescent Shot",
+  "bio": [
+    "Maverick con forma de oso que ataca con embestidas y zarpazos en forma de media luna. Es manejable solo con el X-Buster cargado, lo que lo vuelve un buen punto de entrada.",
+    "Es uno de los pocos Mavericks de X5 con un apodo humano adicional en los créditos de personajes del juego, una particularidad única de esta entrega."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Crescent_Grizzly",
+  "portrait": "/images/characters/crescent-grizzly.webp"
+}

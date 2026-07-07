@@ -1,0 +1,29 @@
+{
+  "id": "optic-sunflower",
+  "name": "Optic Sunflower",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x8"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "stageName": "Troia Base",
+  "elementType": "Óptica/Hipnosis",
+  "weakTo": {
+    "collection": "characters",
+    "id": "bamboo-pandamonium"
+  },
+  "weaponObtained": "Shining Ray",
+  "bio": [
+    "Maverick con forma de girasol que domina una base militar, atacando con rayos de luz hipnóticos y proyectiles solares.",
+    "El Green Spinner de Bamboo Pandamonium lo golpea con eficacia, siendo un buen punto de entrada recomendado."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Optic_Sunflower",
+  "portrait": "/images/characters/optic-sunflower.webp"
+}

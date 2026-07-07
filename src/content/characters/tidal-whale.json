@@ -1,0 +1,31 @@
+{
+  "id": "tidal-whale",
+  "name": "Tidal Whale",
+  "role": "maverick",
+  "aliases": [
+    "Duff McWhalen"
+  ],
+  "game": {
+    "collection": "games",
+    "id": "x5"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "stageName": "Puerto/base acuática",
+  "elementType": "Agua",
+  "weakTo": {
+    "collection": "characters",
+    "id": "crescent-grizzly"
+  },
+  "weaponObtained": "Goo Shaver",
+  "bio": [
+    "Maverick con forma de ballena que inunda su escenario portuario y ataca embistiendo y absorbiendo agua a presión.",
+    "El Crescent Shot de Crescent Grizzly lo golpea con eficacia, siendo la debilidad recomendada para esta pelea."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Tidal_Whale",
+  "portrait": "/images/characters/tidal-whale.webp"
+}

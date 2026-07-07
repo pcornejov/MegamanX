@@ -1,0 +1,10 @@
+{
+  "id": "heart-dark-necrobat",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Dark Necrobat",
+  "stageName": "Fortaleza en penumbras",
+  "locationDescription": "Escondido en una sección a oscuras de la fortaleza, a la que conviene llegar con el Dark Hold ya obtenido.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 5
+}

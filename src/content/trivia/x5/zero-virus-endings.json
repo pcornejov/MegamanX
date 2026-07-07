@@ -1,0 +1,8 @@
+{
+  "id": "zero-virus-endings",
+  "game": { "collection": "games", "id": "x5" },
+  "category": "design",
+  "title": "Un juego con final ramificado según qué tan rápido actúes",
+  "body": "Mega Man X5 fue concebido originalmente como el cierre de la serie X, y eso se nota en su estructura: la colonia espacial Eurasia cae hacia la Tierra en una cuenta regresiva real, y el resultado depende de las decisiones y la velocidad del jugador. Si Eurasia se destruye a tiempo pero Zero queda infectado por el virus resultante, el juego puede terminar con X obligado a enfrentarse a su propio compañero; si Eurasia no se destruye del todo, Zero se convierte directamente en Maverick sin posibilidad de salvarlo.",
+  "sourceUrl": "https://megaman.fandom.com/wiki/Zero_Virus"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "heart-ground-scaravich",
+  "game": { "collection": "games", "id": "x6" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Ground Scaravich",
+  "stageName": "Central Museum",
+  "locationDescription": "Escondido en una sala secundaria del museo en ruinas.",
+  "videoId": "R3LboY-H0J4",
+  "order": 2
+}

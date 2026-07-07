@@ -1,0 +1,14 @@
+{
+  "id": "aperoid",
+  "name": "Aperoid",
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "classification": "ground",
+  "description": "Mechaniloid con forma de gorila que ataca con un hacha, encontrado patrullando las fuerzas aéreas enemigas.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Aperoid",
+  "image": "/images/enemies/aperoid.webp"
+}

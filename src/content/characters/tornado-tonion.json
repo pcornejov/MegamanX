@@ -1,0 +1,29 @@
+{
+  "id": "tornado-tonion",
+  "name": "Tornado Tonion",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x7"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "stageName": "Radio Tower",
+  "elementType": "Viento",
+  "weakTo": {
+    "collection": "characters",
+    "id": "soldier-stonekong"
+  },
+  "weaponObtained": "Volt Tornado",
+  "bio": [
+    "Maverick con forma de cebolla que ocupa una torre de radio, generando tornados para desestabilizar a su oponente.",
+    "El Gaea Shield de Soldier Stonekong lo protege y golpea con eficacia, siendo su debilidad más confiable."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Tornado_Tonion",
+  "portrait": "/images/characters/tornado-tonion.webp"
+}

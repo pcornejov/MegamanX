@@ -1,0 +1,10 @@
+{
+  "id": "heart-gravity-antonion",
+  "game": { "collection": "games", "id": "x8" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Gravity Antonion",
+  "stageName": "Primrose",
+  "locationDescription": "Escondido en una zona de gravedad alterada de la fase.",
+  "videoId": "3AH3qAHdiP8",
+  "order": 3
+}

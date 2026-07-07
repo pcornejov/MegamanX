@@ -1,0 +1,31 @@
+{
+  "id": "spike-rosered",
+  "name": "Spike Rosered",
+  "role": "maverick",
+  "aliases": [
+    "Axle the Red"
+  ],
+  "game": {
+    "collection": "games",
+    "id": "x5"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "stageName": "Invernadero/jardín botánico",
+  "elementType": "Naturaleza/Espinas",
+  "weakTo": {
+    "collection": "characters",
+    "id": "burn-dinorex"
+  },
+  "weaponObtained": "Spike Ball",
+  "bio": [
+    "Maverick con forma vegetal cubierto de espinas que custodia un invernadero, atacando con enredaderas y bolas de púas.",
+    "El Ground Fire de Burn Dinorex quema su cuerpo vegetal con facilidad, cerrando el ciclo de esta segunda mini-cadena de debilidades del juego."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Spike_Rosered",
+  "portrait": "/images/characters/spike-rosered.webp"
+}

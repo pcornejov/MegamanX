@@ -1,0 +1,10 @@
+{
+  "id": "heart-shining-firefly",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Shining Firefly",
+  "stageName": "Zona de neón/luces urbanas",
+  "locationDescription": "Escondido en una plataforma alta de la zona urbana, fuera del camino directo hacia el jefe.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 4
+}

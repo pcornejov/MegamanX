@@ -1,0 +1,15 @@
+{
+  "id": "eagle-g",
+  "name": "Eagle G",
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "classification": "boss-minion",
+  "description": "Mechaniloid artillero fuertemente blindado, invulnerable mientras mantiene su escudo activo; solo un puñado de Special Weapons logra atravesarlo.",
+  "notes": "Débil a Spike Ball y Flash Laser (o, con Zero, a Chaos Flasher y Wind Shredder).",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Eagle_G",
+  "image": "/images/enemies/eagle-g.webp"
+}

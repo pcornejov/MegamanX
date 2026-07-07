@@ -1,0 +1,29 @@
+{
+  "id": "ground-scaravich",
+  "name": "Ground Scaravich",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x6"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "stageName": "Central Museum",
+  "elementType": "Tierra/Excavación",
+  "weakTo": {
+    "collection": "characters",
+    "id": "commander-yammark"
+  },
+  "weaponObtained": "Ground Dash",
+  "bio": [
+    "Maverick con forma de escarabajo pesado que embiste y excava a través de un museo en ruinas.",
+    "El Yammar Option de Commander Yammark lo distrae y golpea con eficacia, siendo su debilidad recomendada."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Ground_Scaravich",
+  "portrait": "/images/characters/ground-scaravich.webp"
+}

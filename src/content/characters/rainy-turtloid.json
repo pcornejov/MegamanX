@@ -1,0 +1,29 @@
+{
+  "id": "rainy-turtloid",
+  "name": "Rainy Turtloid",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x6"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "stageName": "Inami Temple",
+  "elementType": "Agua/Tortuga",
+  "weakTo": {
+    "collection": "characters",
+    "id": "blizzard-wolfang"
+  },
+  "weaponObtained": "Meteor Rain",
+  "bio": [
+    "Maverick con forma de tortuga blindada que inunda un templo en ruinas y ataca escondido en su caparazón.",
+    "El Ice Burst de Blizzard Wolfang lo golpea con eficacia incluso mientras está protegido."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Rainy_Turtloid",
+  "portrait": "/images/characters/rainy-turtloid.webp"
+}

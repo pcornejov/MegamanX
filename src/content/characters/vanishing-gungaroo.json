@@ -1,0 +1,29 @@
+{
+  "id": "vanishing-gungaroo",
+  "name": "Vanishing Gungaroo",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x7"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "stageName": "Tunnel Base",
+  "elementType": "Explosivos/Canguro",
+  "weakTo": {
+    "collection": "characters",
+    "id": "wind-crowrang"
+  },
+  "weaponObtained": "Explosion",
+  "bio": [
+    "Maverick con forma de canguro que se teletransporta por un túnel subterráneo antes de aparecer para dejar caer bombas.",
+    "El Wind Cutter de Wind Crowrang lo golpea justo cuando reaparece, cerrando el ciclo de debilidades del juego: su propio Explosion es, a su vez, la debilidad de Soldier Stonekong, el primer Maverick de la lista."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Vanishing_Gungaroo",
+  "portrait": "/images/characters/vanishing-gungaroo.webp"
+}

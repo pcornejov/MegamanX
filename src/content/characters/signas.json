@@ -1,0 +1,20 @@
+{
+  "id": "signas",
+  "name": "Signas",
+  "role": "reploid",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "bio": [
+    "Signas es el nuevo comandante en jefe de los Maverick Hunters a partir de Mega Man X5, tras la serie de crisis que dejó vacante el liderazgo tras los eventos de Repliforce.",
+    "Coordina las operaciones generales de los Hunters desde la base y se convierte en la máxima autoridad al mando durante el resto de la saga."
+  ],
+  "affiliation": "Maverick Hunters",
+  "rank": "Comandante en jefe de los Maverick Hunters",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Signas",
+  "portrait": "/images/characters/signas.webp"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "alia",
+  "name": "Alia",
+  "role": "reploid",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "bio": [
+    "Alia es una Reploid especialista en computación que se une a los Maverick Hunters como Navegadora en Mega Man X5, guiando a X y Zero por radio durante las misiones con análisis de datos y advertencias en tiempo real.",
+    "Se convierte en un pilar de apoyo recurrente para el resto de la serie, cumpliendo un rol similar al de un centro de operaciones para los Hunters en el campo."
+  ],
+  "affiliation": "Maverick Hunters",
+  "rank": "Navegadora / especialista en computación",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Alia",
+  "portrait": "/images/characters/alia.webp"
+}

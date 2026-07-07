@@ -1,0 +1,29 @@
+{
+  "id": "blizzard-wolfang",
+  "name": "Blizzard Wolfang",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x6"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "stageName": "Northpole Area",
+  "elementType": "Hielo/Lobo",
+  "weakTo": {
+    "collection": "characters",
+    "id": "blaze-heatnix"
+  },
+  "weaponObtained": "Ice Burst",
+  "bio": [
+    "Maverick con forma de lobo mecánico que acecha en una región polar, saltando entre paredes heladas.",
+    "El Magma Blade de Blaze Heatnix derrite su blindaje congelado con facilidad."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Blizzard_Wolfang",
+  "portrait": "/images/characters/blizzard-wolfang.webp"
+}

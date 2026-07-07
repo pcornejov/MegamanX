@@ -1,0 +1,10 @@
+{
+  "id": "heart-earthrock-trilobyte",
+  "game": { "collection": "games", "id": "x8" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Earthrock Trilobyte",
+  "stageName": "Metal Valley",
+  "locationDescription": "Escondido en una sección secundaria del valle metálico.",
+  "videoId": "3AH3qAHdiP8",
+  "order": 4
+}

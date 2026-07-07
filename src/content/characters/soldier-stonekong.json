@@ -1,0 +1,29 @@
+{
+  "id": "soldier-stonekong",
+  "name": "Soldier Stonekong",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x7"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "stageName": "Deep Forest",
+  "elementType": "Tierra/Fuerza física",
+  "weakTo": {
+    "collection": "characters",
+    "id": "vanishing-gungaroo"
+  },
+  "weaponObtained": "Gaea Shield",
+  "bio": [
+    "Maverick con forma de gorila de piedra que domina un bosque profundo a golpes y embestidas.",
+    "El Explosion de Vanishing Gungaroo lo derriba con facilidad, siendo un buen punto de entrada recomendado."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Soldier_Stonekong",
+  "portrait": "/images/characters/soldier-stonekong.webp"
+}

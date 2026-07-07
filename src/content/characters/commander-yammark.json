@@ -1,0 +1,29 @@
+{
+  "id": "commander-yammark",
+  "name": "Commander Yammark",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x6"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "stageName": "Amazon Area",
+  "elementType": "Insecto/Vuelo",
+  "weakTo": {
+    "collection": "characters",
+    "id": "infinity-mijinion"
+  },
+  "weaponObtained": "Yammar Option",
+  "bio": [
+    "Maverick con forma de libélula que vuela erráticamente por una zona selvática, invocando drones voladores como apoyo.",
+    "El Ray Arrow de Infinity Mijinion lo derriba con facilidad, siendo el punto de entrada recomendado del juego."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Commander_Yammark",
+  "portrait": "/images/characters/commander-yammark.webp"
+}

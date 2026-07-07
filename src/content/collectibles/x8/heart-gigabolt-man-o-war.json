@@ -1,0 +1,10 @@
+{
+  "id": "heart-gigabolt-man-o-war",
+  "game": { "collection": "games", "id": "x8" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Gigabolt Man-O-War",
+  "stageName": "Dynasty",
+  "locationDescription": "Escondido en una zona secundaria del escenario de estilo oriental.",
+  "videoId": "3AH3qAHdiP8",
+  "order": 5
+}

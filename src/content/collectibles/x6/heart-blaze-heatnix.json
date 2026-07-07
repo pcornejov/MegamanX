@@ -1,0 +1,10 @@
+{
+  "id": "heart-blaze-heatnix",
+  "game": { "collection": "games", "id": "x6" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Blaze Heatnix",
+  "stageName": "Magma Area",
+  "locationDescription": "Escondido en una zona elevada sobre la lava de la fase volcánica.",
+  "videoId": "R3LboY-H0J4",
+  "order": 3
+}

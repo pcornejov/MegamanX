@@ -1,0 +1,29 @@
+{
+  "id": "metal-shark-player",
+  "name": "Metal Shark Player",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x6"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "stageName": "Recycle Lab",
+  "elementType": "Metal/Tiburón",
+  "weakTo": {
+    "collection": "characters",
+    "id": "rainy-turtloid"
+  },
+  "weaponObtained": "Metal Anchor",
+  "bio": [
+    "Maverick con forma de tiburón mecánico que nada por un laboratorio de reciclaje inundado, atacando con un ancla de metal.",
+    "El Meteor Rain de Rainy Turtloid cae sobre él desde arriba con gran eficacia."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Metal_Shark_Player",
+  "portrait": "/images/characters/metal-shark-player.webp"
+}

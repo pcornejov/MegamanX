@@ -1,0 +1,8 @@
+{
+  "id": "ground-sniper",
+  "name": "Ground Sniper",
+  "games": [{ "collection": "games", "id": "x6" }],
+  "classification": "ground",
+  "description": "Unidad terrestre que se entierra parcialmente para disparar a distancia con precisión antes de replegarse bajo tierra.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Ground_Sniper"
+}

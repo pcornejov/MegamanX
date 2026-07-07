@@ -1,0 +1,10 @@
+{
+  "id": "heart-dark-mantis",
+  "game": { "collection": "games", "id": "x8" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Dark Mantis",
+  "stageName": "Pitch Black",
+  "locationDescription": "Escondido en una sección oculta entre la oscuridad de la fase.",
+  "videoId": "3AH3qAHdiP8",
+  "order": 2
+}

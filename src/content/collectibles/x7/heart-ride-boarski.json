@@ -1,0 +1,10 @@
+{
+  "id": "heart-ride-boarski",
+  "game": { "collection": "games", "id": "x7" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Ride Boarski",
+  "stageName": "Central Circuit",
+  "locationDescription": "Escondido en una zona secundaria del circuito de carreras.",
+  "videoId": "hJbzFjS5i_w",
+  "order": 5
+}

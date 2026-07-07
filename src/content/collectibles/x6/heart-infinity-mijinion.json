@@ -1,0 +1,10 @@
+{
+  "id": "heart-infinity-mijinion",
+  "game": { "collection": "games", "id": "x6" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Infinity Mijinion",
+  "stageName": "Weapons Facility",
+  "locationDescription": "Escondido en una zona de gravedad cero de la fábrica de armamento.",
+  "videoId": "R3LboY-H0J4",
+  "order": 8
+}

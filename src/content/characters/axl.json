@@ -1,0 +1,30 @@
+{
+  "id": "axl",
+  "name": "Axl",
+  "role": "hero",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    },
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "bio": [
+    "Axl es un Reploid de combate joven con una habilidad única: el A-Trans, que le permite copiar la forma y algunas habilidades de sus enemigos. Debuta en Mega Man X7 como miembro del grupo vigilante Red Alert.",
+    "Al notar que Red Alert lo está usando con fines siniestros, Axl deserta del grupo con la ayuda de Zero, y termina uniéndose a los Maverick Hunters pese a las dudas iniciales de X sobre incorporar a alguien de su pasado reciente.",
+    "Se convierte en el tercer protagonista jugable de la serie X, junto a X y Zero, en el resto de la saga. En Mega Man X8, su parentesco tecnológico con los New Generation Reploids —capaces como él de alterar su propio ADN— se vuelve un punto clave de la trama."
+  ],
+  "weapons": [
+    {
+      "name": "Doble pistola",
+      "description": "Par de pistolas semiautomáticas de corto alcance, su arma característica."
+    }
+  ],
+  "specialAbility": "A-Trans: puede transformarse temporalmente en Reploids enemigos derrotados para copiar parte de su apariencia y capacidades.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Axl",
+  "portrait": "/images/characters/axl.webp"
+}

@@ -9,6 +9,10 @@ const gameWikiTitles: Record<string, string> = {
   x2: 'Mega Man X2',
   x3: 'Mega Man X3',
   x4: 'Mega Man X4',
+  x5: 'Mega Man X5',
+  x6: 'Mega Man X6',
+  x7: 'Mega Man X7',
+  x8: 'Mega Man X8',
 };
 
 // One-off script: downloads portrait/enemy thumbnails from the Fandom MediaWiki

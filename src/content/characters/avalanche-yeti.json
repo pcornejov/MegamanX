@@ -1,0 +1,29 @@
+{
+  "id": "avalanche-yeti",
+  "name": "Avalanche Yeti",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x8"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "stageName": "Central White",
+  "elementType": "Hielo",
+  "weakTo": {
+    "collection": "characters",
+    "id": "gigabolt-man-o-war"
+  },
+  "weaponObtained": "Drift Diamond",
+  "bio": [
+    "Maverick con forma de yeti que custodia una región helada eterna, atacando con ráfagas de nieve y hielo.",
+    "El Thunder Dancer de Gigabolt Man-O-War lo electrocuta con gran eficacia."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Avalanche_Yeti",
+  "portrait": "/images/characters/avalanche-yeti.webp"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "heart-flame-hyenard",
+  "game": { "collection": "games", "id": "x7" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Flame Hyenard",
+  "stageName": "Lava Factory",
+  "locationDescription": "Escondido en una zona elevada sobre la lava de la fábrica.",
+  "videoId": "hJbzFjS5i_w",
+  "order": 4
+}

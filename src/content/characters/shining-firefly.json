@@ -1,0 +1,31 @@
+{
+  "id": "shining-firefly",
+  "name": "Shining Firefly",
+  "role": "maverick",
+  "aliases": [
+    "Izzy Glow"
+  ],
+  "game": {
+    "collection": "games",
+    "id": "x5"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "stageName": "Zona de neón/luces urbanas",
+  "elementType": "Luz",
+  "weakTo": {
+    "collection": "characters",
+    "id": "volt-kraken"
+  },
+  "weaponObtained": "Flash Laser",
+  "bio": [
+    "Maverick con forma de luciérnaga que ilumina su escenario y encandila a su oponente con destellos antes de atacar.",
+    "El Tri-Thunder de Volt Kraken lo golpea en las tres direcciones a la vez, siendo su debilidad más confiable."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Shining_Firefly",
+  "portrait": "/images/characters/shining-firefly.webp"
+}

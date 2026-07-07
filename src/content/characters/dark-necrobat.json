@@ -1,0 +1,27 @@
+{
+  "id": "dark-necrobat",
+  "name": "Dark Necrobat",
+  "role": "maverick",
+  "aliases": [
+    "Dark Dizzy"
+  ],
+  "game": {
+    "collection": "games",
+    "id": "x5"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x5"
+    }
+  ],
+  "stageName": "Fortaleza en penumbras",
+  "elementType": "Oscuridad/Manipulación temporal",
+  "weaponObtained": "Dark Hold",
+  "bio": [
+    "Maverick con forma de murciélago que se oculta en la oscuridad de su fortaleza y puede detener el tiempo brevemente para escapar de los ataques.",
+    "Es manejable solo con el X-Buster cargado, funcionando como el inicio de una segunda mini-cadena de debilidades dentro del juego."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Dark_Necrobat",
+  "portrait": "/images/characters/dark-necrobat.webp"
+}

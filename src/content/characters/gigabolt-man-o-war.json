@@ -1,0 +1,29 @@
+{
+  "id": "gigabolt-man-o-war",
+  "name": "Gigabolt Man-O-War",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x8"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "stageName": "Dynasty",
+  "elementType": "Electricidad/Medusa",
+  "weakTo": {
+    "collection": "characters",
+    "id": "earthrock-trilobyte"
+  },
+  "weaponObtained": "Thunder Dancer",
+  "bio": [
+    "Maverick con forma de medusa eléctrica que flota en un escenario de estilo oriental, descargando electricidad en área.",
+    "El Crystal Wall de Earthrock Trilobyte lo protege y golpea con gran eficacia."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Gigabolt_Man-O-War",
+  "portrait": "/images/characters/gigabolt-man-o-war.webp"
+}

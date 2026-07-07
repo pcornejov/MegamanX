@@ -1,0 +1,10 @@
+{
+  "id": "heart-snipe-anteator",
+  "game": { "collection": "games", "id": "x7" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Snipe Anteator",
+  "stageName": "Cyber Field",
+  "locationDescription": "Escondido en una sección secundaria del campo de servidores.",
+  "videoId": "hJbzFjS5i_w",
+  "order": 6
+}

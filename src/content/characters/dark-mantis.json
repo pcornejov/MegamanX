@@ -1,0 +1,29 @@
+{
+  "id": "dark-mantis",
+  "name": "Dark Mantis",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x8"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "stageName": "Pitch Black",
+  "elementType": "Oscuridad/Insecto",
+  "weakTo": {
+    "collection": "characters",
+    "id": "optic-sunflower"
+  },
+  "weaponObtained": "Shadow Runner",
+  "bio": [
+    "Maverick con forma de mantis religiosa que ataca desde las sombras con guadañas afiladas en una zona completamente a oscuras.",
+    "El Shining Ray de Optic Sunflower ilumina la zona y lo golpea con eficacia."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Dark_Mantis",
+  "portrait": "/images/characters/dark-mantis.webp"
+}

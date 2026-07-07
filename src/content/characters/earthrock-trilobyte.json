@@ -1,0 +1,29 @@
+{
+  "id": "earthrock-trilobyte",
+  "name": "Earthrock Trilobyte",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x8"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "stageName": "Metal Valley",
+  "elementType": "Tierra/Roca",
+  "weakTo": {
+    "collection": "characters",
+    "id": "gravity-antonion"
+  },
+  "weaponObtained": "Crystal Wall",
+  "bio": [
+    "Maverick con forma de trilobites fósil que se protege tras un casco de roca, vulnerable solo cuando lo pierde.",
+    "El Squeeze Bomb de Gravity Antonion es capaz de romper su casco protector y dejarlo expuesto."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Earthrock_Trilobyte",
+  "portrait": "/images/characters/earthrock-trilobyte.webp"
+}

@@ -21,6 +21,22 @@
     {
       "collection": "games",
       "id": "x4"
+    },
+    {
+      "collection": "games",
+      "id": "x5"
+    },
+    {
+      "collection": "games",
+      "id": "x6"
+    },
+    {
+      "collection": "games",
+      "id": "x7"
+    },
+    {
+      "collection": "games",
+      "id": "x8"
     }
   ],
   "bio": [
@@ -29,6 +45,10 @@
     "En Mega Man X2 se revela que sus restos sobrevivieron: un trío de Reploids remanentes de Sigma, los X-Hunters, los recuperan y los usan como cebo para atraer a X, obligándolo a recuperar las piezas de Zero antes de poder reconstruirlo.",
     "Mega Man X3 es el primer juego en el que Zero es completamente jugable en la mayoría de las fases; si es derrotado en combate, queda fuera del resto de la partida, y si es él quien vence a un Maverick, X no recibe el arma de ese jefe.",
     "En Mega Man X4 es jugable desde el inicio con su propia campaña completa, y vive uno de los momentos más duros de la saga: obligado a enfrentarse a Iris, la mujer de la que se había enamorado, en un conflicto que lo deja al borde de una crisis existencial.",
+    "En Mega Man X5 pilota personalmente la nave de emergencia contra la colonia espacial Eurasia y termina infectado por un virus que combina el virus de Sigma con el de la propia colonia, lo que lo empuja al borde de convertirse en Maverick según las decisiones del jugador.",
+    "Tras los eventos de Mega Man X5, fragmentos de su ADN quedan entre los restos de Eurasia; el investigador Gate los encuentra y los usa para crear el Virus Nightmare y una réplica corrupta e inestable de Zero, dando inicio a la crisis de Mega Man X6 sin que el propio Zero tenga responsabilidad directa en ella.",
+    "En Mega Man X7, con X retirado del frente, Zero se convierte en uno de los dos protagonistas iniciales junto al recién llegado Axl, ayudándolo a escapar del grupo Red Alert.",
+    "En Mega Man X8 vuelve a pelear junto a X y Axl para contener el levantamiento de los New Generation Reploids durante el proyecto de colonización lunar Jakob.",
     "Su verdadero origen — ligado al propio Dr. Wily — se revela recién en entregas posteriores de la saga."
   ],
   "weapons": [

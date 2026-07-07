@@ -1,0 +1,10 @@
+{
+  "id": "heart-vanishing-gungaroo",
+  "game": { "collection": "games", "id": "x7" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Vanishing Gungaroo",
+  "stageName": "Tunnel Base",
+  "locationDescription": "Escondido en una sección secundaria del túnel subterráneo.",
+  "videoId": "hJbzFjS5i_w",
+  "order": 8
+}

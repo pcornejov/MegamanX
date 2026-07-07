@@ -1,0 +1,10 @@
+{
+  "id": "heart-bamboo-pandamonium",
+  "game": { "collection": "games", "id": "x8" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Bamboo Pandamonium",
+  "stageName": "Booster Forest",
+  "locationDescription": "Escondido en una sección secundaria del bosque de bambú.",
+  "videoId": "3AH3qAHdiP8",
+  "order": 8
+}

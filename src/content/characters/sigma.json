@@ -21,6 +21,22 @@
     {
       "collection": "games",
       "id": "x4"
+    },
+    {
+      "collection": "games",
+      "id": "x5"
+    },
+    {
+      "collection": "games",
+      "id": "x6"
+    },
+    {
+      "collection": "games",
+      "id": "x7"
+    },
+    {
+      "collection": "games",
+      "id": "x8"
     }
   ],
   "bio": [
@@ -29,6 +45,10 @@
     "Aunque es aparentemente destruido al final de Mega Man X, su virus y su voluntad sobreviven: en Mega Man X2 manipula en secreto a los X-Hunters para recuperar los restos de Zero y usarlos como arma contra X.",
     "En Mega Man X3 su virus infecta en secreto al Dr. Doppler, corrompiendo su proyecto de paz entre Reploids y humanos y usándolo como excusa para lanzar un nuevo levantamiento de Mavericks.",
     "En Mega Man X4 orquesta en la sombra todo el conflicto entre los Maverick Hunters y Repliforce, provocando el accidente del Sky Lagoon a través de Magma Dragoon y Double para enfrentar a ambos bandos entre sí mientras él observa desde la Luna.",
+    "En Mega Man X5 contrata al mercenario Dynamo para infectar la colonia espacial Eurasia y hacerla caer sobre la Tierra, con el objetivo de fusionar su propio virus con el de la colonia y crear un nuevo virus capaz de corromper a Zero.",
+    "En Mega Man X6 aparece recién al final: se revela que el investigador Gate, tras perder la cordura estudiando el ADN de Zero, había revivido en secreto a Sigma como parte de su plan, obligando a X y Zero a enfrentarlo una vez más.",
+    "En Mega Man X7 se infiltra bajo el alias \"El Profesor\" para manipular al grupo vigilante Red Alert y a su líder Red, atraído por el poder único de Axl. En el enfrentamiento final, intenta poseer el cuerpo de Red para regenerarse, sin saber que en realidad se trata de Axl disfrazado, quien lo derrota de una vez.",
+    "En Mega Man X8 su presencia se reduce a datos residuales de su virus, copiados y reutilizados por otros como arma, mientras el verdadero cerebro detrás del levantamiento final resulta ser alguien completamente distinto: Lumine.",
     "Se convierte en el antagonista recurrente de toda la serie X, regresando en formas y cuerpos distintos en casi todos los juegos posteriores incluso después de ser derrotado."
   ],
   "notes": "Jefe final de Mega Man X, en dos fases: su forma Reploid y una segunda forma orgánica/monstruosa tras ser gravemente dañado. También jefe final de Mega Man X2 y Mega Man X3, siempre regresando en un nuevo cuerpo.",

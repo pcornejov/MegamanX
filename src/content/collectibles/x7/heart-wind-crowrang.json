@@ -1,0 +1,10 @@
+{
+  "id": "heart-wind-crowrang",
+  "game": { "collection": "games", "id": "x7" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Wind Crowrang",
+  "stageName": "Air Forces",
+  "locationDescription": "Escondido en una plataforma secundaria de la flota aérea.",
+  "videoId": "hJbzFjS5i_w",
+  "order": 7
+}

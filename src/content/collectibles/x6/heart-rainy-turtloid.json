@@ -1,0 +1,10 @@
+{
+  "id": "heart-rainy-turtloid",
+  "game": { "collection": "games", "id": "x6" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Rainy Turtloid",
+  "stageName": "Inami Temple",
+  "locationDescription": "Escondido en una zona inundada del templo en ruinas.",
+  "videoId": "R3LboY-H0J4",
+  "order": 5
+}

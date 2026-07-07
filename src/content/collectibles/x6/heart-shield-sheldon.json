@@ -1,0 +1,10 @@
+{
+  "id": "heart-shield-sheldon",
+  "game": { "collection": "games", "id": "x6" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Shield Sheldon",
+  "stageName": "Laser Institute",
+  "locationDescription": "Escondido en una sala secundaria del instituto de investigación láser.",
+  "videoId": "R3LboY-H0J4",
+  "order": 7
+}

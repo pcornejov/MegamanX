@@ -1,0 +1,29 @@
+{
+  "id": "shield-sheldon",
+  "name": "Shield Sheldon",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x6"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "stageName": "Laser Institute",
+  "elementType": "Defensa/Escudos",
+  "weakTo": {
+    "collection": "characters",
+    "id": "metal-shark-player"
+  },
+  "weaponObtained": "Guard Shell",
+  "bio": [
+    "Maverick fuertemente blindado que se protege detrás de un escudo giratorio en un instituto de investigación láser.",
+    "El Metal Anchor de Metal Shark Player perfora su escudo con facilidad."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Shield_Sheldon",
+  "portrait": "/images/characters/shield-sheldon.webp"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "snipe-anteator",
+  "name": "Snipe Anteator",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x7"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "stageName": "Cyber Field",
+  "elementType": "Precisión/Oso hormiguero",
+  "weakTo": {
+    "collection": "characters",
+    "id": "ride-boarski"
+  },
+  "weaponObtained": "Sniper Missile",
+  "bio": [
+    "Maverick con forma de oso hormiguero que dispara con precisión de larga distancia desde un campo de servidores.",
+    "El Moving Wheel de Ride Boarski lo golpea con eficacia mientras intenta mantener la distancia."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Snipe_Anteator",
+  "portrait": "/images/characters/snipe-anteator.webp"
+}

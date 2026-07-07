@@ -1,0 +1,10 @@
+{
+  "id": "heart-blizzard-wolfang",
+  "game": { "collection": "games", "id": "x6" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Blizzard Wolfang",
+  "stageName": "Northpole Area",
+  "locationDescription": "Escondido en una sección helada secundaria de la región polar.",
+  "videoId": "R3LboY-H0J4",
+  "order": 4
+}

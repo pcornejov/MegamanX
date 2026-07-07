@@ -1,0 +1,10 @@
+{
+  "id": "heart-optic-sunflower",
+  "game": { "collection": "games", "id": "x8" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Optic Sunflower",
+  "stageName": "Troia Base",
+  "locationDescription": "Escondido en una zona secundaria de la base militar, como el resto de los Heart Tanks del juego, uno por escenario de Maverick.",
+  "videoId": "3AH3qAHdiP8",
+  "order": 1
+}

@@ -1,0 +1,21 @@
+{
+  "id": "red",
+  "name": "Red",
+  "role": "reploid",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "bio": [
+    "Red es el líder del grupo vigilante Red Alert, formado originalmente para cazar Mavericks de forma independiente ante el debilitamiento de los Maverick Hunters tras el retiro de X del frente de batalla.",
+    "Con el tiempo, y sin que él mismo lo note del todo, Sigma —infiltrado bajo el alias \"El Profesor\"— manipula a Red Alert hasta convertirlo en una amenaza real, interesado sobre todo en el poder único de Axl.",
+    "En el clímax del juego, Sigma intenta poseer su cuerpo para regenerarse, sin saber que quien está frente a él en ese momento es en realidad Axl disfrazado de Red gracias a su A-Trans."
+  ],
+  "affiliation": "Líder de Red Alert (manipulado por Sigma)",
+  "rank": "Líder de Red Alert",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Red",
+  "portrait": "/images/characters/red.webp"
+}

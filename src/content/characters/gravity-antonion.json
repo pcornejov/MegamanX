@@ -1,0 +1,29 @@
+{
+  "id": "gravity-antonion",
+  "name": "Gravity Antonion",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x8"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "stageName": "Primrose",
+  "elementType": "Gravedad/Insecto",
+  "weakTo": {
+    "collection": "characters",
+    "id": "dark-mantis"
+  },
+  "weaponObtained": "Squeeze Bomb",
+  "bio": [
+    "Maverick con forma de hormiga que manipula la gravedad de su escenario para atraer o aplastar a su oponente.",
+    "El Shadow Runner de Dark Mantis lo golpea con eficacia mientras flota."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Gravity_Antonion",
+  "portrait": "/images/characters/gravity-antonion.webp"
+}

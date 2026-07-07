@@ -1,0 +1,10 @@
+{
+  "id": "heart-burn-rooster",
+  "game": { "collection": "games", "id": "x8" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Burn Rooster",
+  "stageName": "Inferno",
+  "locationDescription": "Escondido en una plataforma sobre la lava de la zona volcánica.",
+  "videoId": "3AH3qAHdiP8",
+  "order": 7
+}

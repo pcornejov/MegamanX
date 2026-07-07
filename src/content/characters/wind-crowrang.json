@@ -1,0 +1,29 @@
+{
+  "id": "wind-crowrang",
+  "name": "Wind Crowrang",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x7"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "stageName": "Air Forces",
+  "elementType": "Viento/Cuervo",
+  "weakTo": {
+    "collection": "characters",
+    "id": "snipe-anteator"
+  },
+  "weaponObtained": "Wind Cutter",
+  "bio": [
+    "Maverick con forma de cuervo que vuela entre una flota aérea, lanzando bumeranes cortantes.",
+    "El Sniper Missile de Snipe Anteator lo derriba en pleno vuelo con gran precisión."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Wind_Crowrang",
+  "portrait": "/images/characters/wind-crowrang.webp"
+}

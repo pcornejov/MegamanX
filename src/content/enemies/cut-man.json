@@ -1,0 +1,14 @@
+{
+  "id": "cut-man",
+  "name": "Cut Man",
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "classification": "boss-minion",
+  "description": "Versión reconstruida del clásico Robot Master de Dr. Light, creado originalmente para talar árboles antes de ser modificado por Dr. Wily. Aparece como un inesperado cameo dentro de Troia Base.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Cut_Man",
+  "image": "/images/enemies/cut-man.webp"
+}

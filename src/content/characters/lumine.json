@@ -1,0 +1,20 @@
+{
+  "id": "lumine",
+  "name": "Lumine",
+  "role": "other",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "bio": [
+    "Lumine es el Reploid a cargo del Proyecto Jakob, la construcción de un elevador orbital para colonizar la Luna y escapar de los levantamientos Maverick en la Tierra. Es también el responsable de diseñar a los New Generation Reploids, capaces de alterar su propio ADN y, por eso mismo, inmunes al virus de Sigma.",
+    "Al principio de la historia, Vile lo secuestra y estalla un levantamiento masivo de New Generation Reploids en todo el mundo, lo que lleva a X, Zero y Axl a intentar rescatarlo.",
+    "Se revela que Lumine orquestó todo desde el principio: considera a los humanos y a los Reploids \"obsoletos\" un obstáculo para la evolución, y busca que los New Generation Reploids los reemplacen a ambos, convirtiéndose en el verdadero villano final de la serie principal."
+  ],
+  "notes": "Jefe final de Mega Man X8, el cierre de la serie principal.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Lumine",
+  "portrait": "/images/characters/lumine.webp"
+}

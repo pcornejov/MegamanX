@@ -1,0 +1,10 @@
+{
+  "id": "subtank-burn-dinorex",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "sub-tank",
+  "name": "Sub Tank #4",
+  "stageName": "Zona volcánica/de excavación (Burn Dinorex)",
+  "locationDescription": "Escondido cerca del final de la fase, en una plataforma sobre la lava.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 4
+}

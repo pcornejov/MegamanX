@@ -1,0 +1,10 @@
+{
+  "id": "heart-splash-warfly",
+  "game": { "collection": "games", "id": "x7" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Splash Warfly",
+  "stageName": "Battleship",
+  "locationDescription": "Escondido en una cubierta secundaria del acorazado.",
+  "videoId": "hJbzFjS5i_w",
+  "order": 3
+}

@@ -22,12 +22,30 @@
     {
       "collection": "games",
       "id": "x4"
+    },
+    {
+      "collection": "games",
+      "id": "x5"
+    },
+    {
+      "collection": "games",
+      "id": "x6"
+    },
+    {
+      "collection": "games",
+      "id": "x7"
+    },
+    {
+      "collection": "games",
+      "id": "x8"
     }
   ],
   "bio": [
     "X es el último robot construido por el Dr. Thomas Light: la primera máquina con la capacidad de pensar y sentir por sí misma, en lugar de limitarse a seguir órdenes. Por miedo al potencial de esa libertad, Light lo selló durante 30 años, sometiéndolo a pruebas de seguridad continuas antes de considerarlo listo para el mundo.",
     "Encontrado por el Dr. Cain, X se convierte en el modelo original de los Reploids. Aunque no fue diseñado para el combate, se une a los Maverick Hunters para intentar demostrar que los Reploids y los humanos pueden convivir en paz, incluso cuando eso signifique enfrentarse a los suyos.",
-    "Su arma principal es el X-Buster, un cañón de brazo capaz de acumular energía para disparos cargados, y puede copiar temporalmente las armas especiales de los Mavericks que derrota."
+    "Su arma principal es el X-Buster, un cañón de brazo capaz de acumular energía para disparos cargados, y puede copiar temporalmente las armas especiales de los Mavericks que derrota.",
+    "En Mega Man X7, agotado por años de guerra, X se retira del combate directo para enfocarse en soluciones más pacíficas, dejando a Zero y al recién llegado Axl como protagonistas iniciales; solo vuelve a ser jugable si el jugador rescata suficientes Reploids o derrota a los ocho Mavericks.",
+    "En Mega Man X8, el cierre de la serie principal, X vuelve a pelear junto a Zero y Axl —los tres jugables desde el inicio, eligiendo dos por misión— para investigar el levantamiento de los New Generation Reploids durante el proyecto de colonización lunar Jakob."
   ],
   "weapons": [
     {

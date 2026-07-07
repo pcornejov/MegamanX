@@ -1,0 +1,10 @@
+{
+  "id": "heart-volt-kraken",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Volt Kraken",
+  "stageName": "Instalación eléctrica submarina",
+  "locationDescription": "Escondido en una cámara secundaria de la instalación submarina, lejos de la ruta directa al jefe.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 3
+}

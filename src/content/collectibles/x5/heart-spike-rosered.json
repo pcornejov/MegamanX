@@ -1,0 +1,10 @@
+{
+  "id": "heart-spike-rosered",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Spike Rosered",
+  "stageName": "Invernadero/jardín botánico",
+  "locationDescription": "Escondido entre la vegetación del invernadero, en una zona fuera de la ruta principal.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 8
+}

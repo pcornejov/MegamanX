@@ -1,0 +1,20 @@
+{
+  "id": "isoc",
+  "name": "Isoc",
+  "role": "reploid",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "bio": [
+    "Isoc es un misterioso científico Reploid que colabora con Gate en la creación del Virus Nightmare y de High Max, además de encargarse de culpar públicamente al Zero Nightmare por los ataques Maverick recientes.",
+    "Actúa como la mano derecha estratégica de Gate, manteniéndose en las sombras durante gran parte del conflicto."
+  ],
+  "affiliation": "Aliado de Gate",
+  "rank": "Científico",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Isoc",
+  "portrait": "/images/characters/isoc.webp"
+}

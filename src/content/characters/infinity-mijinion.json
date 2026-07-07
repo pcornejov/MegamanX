@@ -1,0 +1,29 @@
+{
+  "id": "infinity-mijinion",
+  "name": "Infinity Mijinion",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x6"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "stageName": "Weapons Facility",
+  "elementType": "Espacio/Gravedad",
+  "weakTo": {
+    "collection": "characters",
+    "id": "shield-sheldon"
+  },
+  "weaponObtained": "Ray Arrow",
+  "bio": [
+    "Maverick diminuto que flota en gravedad cero dentro de una fábrica de armamento, multiplicándose en clones ilusorios para confundir a su oponente.",
+    "El Guard Shell de Shield Sheldon lo golpea con eficacia, cerrando el ciclo de debilidades del juego: su propio Ray Arrow es, a su vez, la debilidad de Commander Yammark, el primer Maverick de la lista."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Infinity_Mijinion",
+  "portrait": "/images/characters/infinity-mijinion.webp"
+}

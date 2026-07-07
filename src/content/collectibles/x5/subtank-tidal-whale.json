@@ -1,0 +1,10 @@
+{
+  "id": "subtank-tidal-whale",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "sub-tank",
+  "name": "Sub Tank #1",
+  "stageName": "Puerto/base acuática (Tidal Whale)",
+  "locationDescription": "Escondido en una zona sumergida de la fase, alcanzable con las mejoras de movimiento acuático.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 1
+}

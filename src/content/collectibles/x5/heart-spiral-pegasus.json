@@ -1,0 +1,10 @@
+{
+  "id": "heart-spiral-pegasus",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Spiral Pegasus",
+  "stageName": "Base aérea/hangar",
+  "locationDescription": "Escondido en una plataforma elevada del hangar, alcanzable con un buen dominio del aire.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 6
+}

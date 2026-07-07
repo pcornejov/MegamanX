@@ -1,0 +1,29 @@
+{
+  "id": "flame-hyenard",
+  "name": "Flame Hyenard",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x7"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "stageName": "Lava Factory",
+  "elementType": "Fuego/Hiena",
+  "weakTo": {
+    "collection": "characters",
+    "id": "splash-warfly"
+  },
+  "weaponObtained": "Circle Blaze",
+  "bio": [
+    "Maverick con forma de hiena que se multiplica en varias copias ilusorias envueltas en llamas dentro de una fábrica volcánica.",
+    "El Splash Laser de Splash Warfly apaga sus llamas y revela cuál de las copias es la real."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Flame_Hyenard",
+  "portrait": "/images/characters/flame-hyenard.webp"
+}

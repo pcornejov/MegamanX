@@ -1,0 +1,14 @@
+{
+  "id": "bindholder",
+  "name": "Bindholder",
+  "games": [
+    {
+      "collection": "games",
+      "id": "x8"
+    }
+  ],
+  "classification": "aerial",
+  "description": "Mechaniloid flotante rodeado de un campo de energía capaz de atrapar e inmovilizar al jugador por contacto hasta que consiga liberarse.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Bindholder",
+  "image": "/images/enemies/bindholder.webp"
+}

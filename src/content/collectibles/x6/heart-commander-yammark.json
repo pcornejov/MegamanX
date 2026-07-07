@@ -1,0 +1,10 @@
+{
+  "id": "heart-commander-yammark",
+  "game": { "collection": "games", "id": "x6" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Commander Yammark",
+  "stageName": "Amazon Area",
+  "locationDescription": "Escondido en una zona secundaria de la selva, como el resto de los Heart Tanks de X6, uno por escenario de Maverick.",
+  "videoId": "R3LboY-H0J4",
+  "order": 1
+}

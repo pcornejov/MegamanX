@@ -1,0 +1,14 @@
+{
+  "id": "mega-scorpio",
+  "name": "Mega Scorpio",
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "classification": "boss-minion",
+  "description": "Mechaniloid gigante con forma de escorpión enviado por Red Alert para recapturar a Axl tras su deserción; Zero interviene para detenerlo en la fase introductoria del juego.",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Mega_Scorpio",
+  "image": "/images/enemies/mega-scorpio.webp"
+}

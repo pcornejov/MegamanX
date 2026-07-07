@@ -1,0 +1,21 @@
+{
+  "id": "gate",
+  "name": "Gate",
+  "role": "reploid",
+  "aliases": [],
+  "games": [
+    {
+      "collection": "games",
+      "id": "x6"
+    }
+  ],
+  "bio": [
+    "Gate es un Reploid investigador que estudia los restos de la colonia espacial Eurasia tras su caída en Mega Man X5. Entre los escombros encuentra una muestra del ADN viral de Zero, y pasa a analizarla obsesivamente.",
+    "El estudio de ese ADN termina corrompiendo su mente: Gate crea a partir de él el Virus Nightmare, una réplica inestable y corrupta de Zero, y a los ocho \"Investigadores del Nightmare\" que actúan como los Mavericks del juego, todo como parte de un plan para construir una utopía reservada a Reploids de élite.",
+    "Al ser derrotado, se revela que también había revivido en secreto a Sigma, usándolo como última carta para asegurar su plan."
+  ],
+  "affiliation": "Independiente (con la ayuda de Isoc)",
+  "rank": "Investigador / creador del Virus Nightmare",
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Gate",
+  "portrait": "/images/characters/gate.webp"
+}

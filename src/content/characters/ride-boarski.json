@@ -1,0 +1,29 @@
+{
+  "id": "ride-boarski",
+  "name": "Ride Boarski",
+  "role": "maverick",
+  "aliases": [],
+  "game": {
+    "collection": "games",
+    "id": "x7"
+  },
+  "games": [
+    {
+      "collection": "games",
+      "id": "x7"
+    }
+  ],
+  "stageName": "Central Circuit",
+  "elementType": "Velocidad/Jabalí",
+  "weakTo": {
+    "collection": "characters",
+    "id": "flame-hyenard"
+  },
+  "weaponObtained": "Moving Wheel",
+  "bio": [
+    "Maverick con forma de jabalí que corre a toda velocidad por un circuito de carreras, embistiendo de frente.",
+    "El Circle Blaze de Flame Hyenard lo envuelve en llamas y lo frena con eficacia."
+  ],
+  "sourceWikiUrl": "https://megaman.fandom.com/wiki/Ride_Boarski",
+  "portrait": "/images/characters/ride-boarski.webp"
+}

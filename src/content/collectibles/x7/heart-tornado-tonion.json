@@ -1,0 +1,10 @@
+{
+  "id": "heart-tornado-tonion",
+  "game": { "collection": "games", "id": "x7" },
+  "type": "heart-tank",
+  "name": "Heart Tank — Tornado Tonion",
+  "stageName": "Radio Tower",
+  "locationDescription": "Escondido en un nivel secundario de la torre de radio.",
+  "videoId": "hJbzFjS5i_w",
+  "order": 2
+}

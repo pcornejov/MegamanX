@@ -1,0 +1,10 @@
+{
+  "id": "subtank-spiral-pegasus",
+  "game": { "collection": "games", "id": "x5" },
+  "type": "sub-tank",
+  "name": "Sub Tank #3",
+  "stageName": "Base aérea/hangar (Spiral Pegasus)",
+  "locationDescription": "Escondido en una zona alta del hangar, alcanzable con las mejoras de vuelo/planeo de la armadura.",
+  "videoId": "9ACuQ7bo9gM",
+  "order": 3
+}
